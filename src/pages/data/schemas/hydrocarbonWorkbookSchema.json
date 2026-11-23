@@ -1,0 +1,6400 @@
+{
+  "sections": [
+    {
+      "id": "ia",
+      "title": "I.a Gas Power Stations",
+      "sheet": "I.a- KS",
+      "tables": [
+        {
+          "id": "ia-1",
+          "title": "Gas Based Generation Cumulative Capacity",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ia_G36",
+                  "ref": "G36",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_H36",
+                  "ref": "H36",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ia_G37",
+                  "ref": "G37",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_H37",
+                  "ref": "H37",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ia_G38",
+                  "ref": "G38",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ia_G39",
+                  "ref": "G39",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ia-2",
+          "title": "CAGR",
+          "columns": [
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ia_M46",
+                  "ref": "M46",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "growth": true
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ia_M47",
+                  "ref": "M47",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "growth": true
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ia_M48",
+                  "ref": "M48",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "growth": true
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ia_M49",
+                  "ref": "M49",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "growth": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ia-3",
+          "title": "PLF",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ia_H60",
+                  "ref": "H60",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_I60",
+                  "ref": "I60",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_J60",
+                  "ref": "J60",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_K60",
+                  "ref": "K60",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_L60",
+                  "ref": "L60",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_M60",
+                  "ref": "M60",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_N60",
+                  "ref": "N60",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ],
+              "notes": {
+                "key": "ia_E60",
+                "ref": "E60",
+                "unit": "Text",
+                "hidden": false,
+                "kind": "manual",
+                "inputType": "text"
+              }
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ia_H61",
+                  "ref": "H61",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_I61",
+                  "ref": "I61",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_J61",
+                  "ref": "J61",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_K61",
+                  "ref": "K61",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_L61",
+                  "ref": "L61",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_M61",
+                  "ref": "M61",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_N61",
+                  "ref": "N61",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ],
+              "notes": {
+                "key": "ia_E61",
+                "ref": "E61",
+                "unit": "Text",
+                "hidden": false,
+                "kind": "manual",
+                "inputType": "text"
+              }
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ia_H62",
+                  "ref": "H62",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_I62",
+                  "ref": "I62",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_J62",
+                  "ref": "J62",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_K62",
+                  "ref": "K62",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_L62",
+                  "ref": "L62",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_M62",
+                  "ref": "M62",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_N62",
+                  "ref": "N62",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ],
+              "notes": {
+                "key": "ia_E62",
+                "ref": "E62",
+                "unit": "Text",
+                "hidden": false,
+                "kind": "manual",
+                "inputType": "text"
+              }
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ia_H63",
+                  "ref": "H63",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_I63",
+                  "ref": "I63",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_J63",
+                  "ref": "J63",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_K63",
+                  "ref": "K63",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_L63",
+                  "ref": "L63",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_M63",
+                  "ref": "M63",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ia_N63",
+                  "ref": "N63",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ],
+              "notes": {
+                "key": "ia_E63",
+                "ref": "E63",
+                "unit": "Text",
+                "hidden": false,
+                "kind": "manual",
+                "inputType": "text"
+              }
+            }
+          ],
+          "notes": true
+        },
+        {
+          "id": "ia-4",
+          "title": "Conversion efficiency of combined cycle gas turbine",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ia_H69",
+                  "ref": "H69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_I69",
+                  "ref": "I69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_J69",
+                  "ref": "J69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_K69",
+                  "ref": "K69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_L69",
+                  "ref": "L69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_M69",
+                  "ref": "M69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_N69",
+                  "ref": "N69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ia_H70",
+                  "ref": "H70",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ia_H71",
+                  "ref": "H71",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ia_H72",
+                  "ref": "H72",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ia-5",
+          "title": "Capital Cost of a Gas TPP",
+          "columns": [
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Low estimate",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ia_N80",
+                  "ref": "N80",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            },
+            {
+              "label": "High estimate",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ia_N82",
+                  "ref": "N82",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ia-6",
+          "title": "Land Requirement of a 1 GW Gas Turbine Plant",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Low estimate of land reqt",
+              "unit": "'000 ha/GW",
+              "cells": [
+                {
+                  "key": "ia_H96",
+                  "ref": "H96",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_I96",
+                  "ref": "I96",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_J96",
+                  "ref": "J96",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_K96",
+                  "ref": "K96",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_L96",
+                  "ref": "L96",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_M96",
+                  "ref": "M96",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_N96",
+                  "ref": "N96",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            },
+            {
+              "label": "High estimate of land reqt",
+              "unit": "'000 ha/GW",
+              "cells": [
+                {
+                  "key": "ia_H97",
+                  "ref": "H97",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_I97",
+                  "ref": "I97",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_J97",
+                  "ref": "J97",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_K97",
+                  "ref": "K97",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_L97",
+                  "ref": "L97",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_M97",
+                  "ref": "M97",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ia_N97",
+                  "ref": "N97",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ia-7",
+          "title": "Additional reference assumptions",
+          "columns": [
+            "Value"
+          ],
+          "rows": [
+            {
+              "label": "CAGR for Level 2 — capacity reference (P37)",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ia_P37",
+                  "ref": "P37",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            },
+            {
+              "label": "Operating Cost of a Gas TPP — reference (O84)",
+              "unit": "rs/MW",
+              "cells": [
+                {
+                  "key": "ia_O84",
+                  "ref": "O84",
+                  "unit": "rs/MW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Operating cost reference (O87)",
+              "unit": "Workbook value",
+              "cells": [
+                {
+                  "key": "ia_O87",
+                  "ref": "O87",
+                  "unit": "Workbook value",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            },
+            {
+              "label": "Land requirement reference (O97)",
+              "unit": "'000 ha/GW",
+              "cells": [
+                {
+                  "key": "ia_O97",
+                  "ref": "O97",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            }
+          ],
+          "reference": true
+        }
+      ]
+    },
+    {
+      "id": "ib",
+      "title": "I.b Coal power stations",
+      "sheet": "I.b-KS",
+      "tables": [
+        {
+          "id": "ib-1",
+          "title": "Coal Powered Plants Retirement Rate",
+          "columns": [
+            "2020"
+          ],
+          "rows": [
+            {
+              "label": "Utility",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ib_F42",
+                  "ref": "F42",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ib-2",
+          "title": "Coal Powered Plants Installed Capacity Cumulative",
+          "columns": [
+            "2020",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Utility",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ib_F61",
+                  "ref": "F61",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G61",
+                  "ref": "G61",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H61",
+                  "ref": "H61",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "id": "61",
+              "trajectory": "Trajectory 1"
+            },
+            {
+              "label": "Captive",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ib_F62",
+                  "ref": "F62",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G62",
+                  "ref": "G62",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "id": "62",
+              "trajectory": "Trajectory 1"
+            },
+            {
+              "label": "Total",
+              "unit": "GW",
+              "cells": [
+                null,
+                {
+                  "key": "ib_G63",
+                  "ref": "G63",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "id": "63",
+              "trajectory": "Trajectory 1"
+            },
+            {
+              "label": "Utility",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ib_F64",
+                  "ref": "F64",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G64",
+                  "ref": "G64",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H64",
+                  "ref": "H64",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "id": "64",
+              "trajectory": "Trajectory 2"
+            },
+            {
+              "label": "Captive",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ib_F65",
+                  "ref": "F65",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G65",
+                  "ref": "G65",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "id": "65",
+              "trajectory": "Trajectory 2"
+            },
+            {
+              "label": "Total",
+              "unit": "GW",
+              "cells": [
+                null,
+                {
+                  "key": "ib_G66",
+                  "ref": "G66",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "id": "66",
+              "trajectory": "Trajectory 2"
+            },
+            {
+              "label": "Utility",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ib_F67",
+                  "ref": "F67",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G67",
+                  "ref": "G67",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H67",
+                  "ref": "H67",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "id": "67",
+              "trajectory": "Trajectory 3"
+            },
+            {
+              "label": "Captive",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ib_F68",
+                  "ref": "F68",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G68",
+                  "ref": "G68",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "id": "68",
+              "trajectory": "Trajectory 3"
+            },
+            {
+              "label": "Total",
+              "unit": "GW",
+              "cells": [
+                null,
+                {
+                  "key": "ib_G69",
+                  "ref": "G69",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "id": "69",
+              "trajectory": "Trajectory 3"
+            },
+            {
+              "label": "Utility",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ib_F70",
+                  "ref": "F70",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G70",
+                  "ref": "G70",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H70",
+                  "ref": "H70",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I70",
+                  "ref": "I70",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J70",
+                  "ref": "J70",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K70",
+                  "ref": "K70",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L70",
+                  "ref": "L70",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M70",
+                  "ref": "M70",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ],
+              "id": "70",
+              "trajectory": "Trajectory 4"
+            },
+            {
+              "label": "Captive",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ib_F71",
+                  "ref": "F71",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G71",
+                  "ref": "G71",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H71",
+                  "ref": "H71",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I71",
+                  "ref": "I71",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J71",
+                  "ref": "J71",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K71",
+                  "ref": "K71",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L71",
+                  "ref": "L71",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M71",
+                  "ref": "M71",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ],
+              "id": "71",
+              "trajectory": "Trajectory 4"
+            },
+            {
+              "label": "Total",
+              "unit": "GW",
+              "cells": [
+                null,
+                {
+                  "key": "ib_G72",
+                  "ref": "G72",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "id": "72",
+              "trajectory": "Trajectory 4"
+            }
+          ],
+          "trajectory": true
+        },
+        {
+          "id": "ib-3",
+          "title": "Technology penetrations — Trajectory A",
+          "columns": [
+            "2020",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "SubC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F84",
+                  "ref": "F84",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G84",
+                  "ref": "G84",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H84",
+                  "ref": "H84",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I84",
+                  "ref": "I84",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J84",
+                  "ref": "J84",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K84",
+                  "ref": "K84",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L84",
+                  "ref": "L84",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M84",
+                  "ref": "M84",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "SC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F85",
+                  "ref": "F85",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G85",
+                  "ref": "G85",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H85",
+                  "ref": "H85",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I85",
+                  "ref": "I85",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J85",
+                  "ref": "J85",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K85",
+                  "ref": "K85",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L85",
+                  "ref": "L85",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M85",
+                  "ref": "M85",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "USC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F86",
+                  "ref": "F86",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G86",
+                  "ref": "G86",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H86",
+                  "ref": "H86",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I86",
+                  "ref": "I86",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J86",
+                  "ref": "J86",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K86",
+                  "ref": "K86",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L86",
+                  "ref": "L86",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M86",
+                  "ref": "M86",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "IGCC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F87",
+                  "ref": "F87",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G87",
+                  "ref": "G87",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H87",
+                  "ref": "H87",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I87",
+                  "ref": "I87",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J87",
+                  "ref": "J87",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K87",
+                  "ref": "K87",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L87",
+                  "ref": "L87",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M87",
+                  "ref": "M87",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ],
+          "total": 100,
+          "description": "Technology shares must total 100% for each year. The workbook dash denotes no contribution."
+        },
+        {
+          "id": "ib-4",
+          "title": "Technology penetrations — Trajectory B",
+          "columns": [
+            "2020",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "SubC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F94",
+                  "ref": "F94",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G94",
+                  "ref": "G94",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H94",
+                  "ref": "H94",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I94",
+                  "ref": "I94",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J94",
+                  "ref": "J94",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K94",
+                  "ref": "K94",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L94",
+                  "ref": "L94",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M94",
+                  "ref": "M94",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "SC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F95",
+                  "ref": "F95",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G95",
+                  "ref": "G95",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H95",
+                  "ref": "H95",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I95",
+                  "ref": "I95",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J95",
+                  "ref": "J95",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K95",
+                  "ref": "K95",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L95",
+                  "ref": "L95",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M95",
+                  "ref": "M95",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "USC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F96",
+                  "ref": "F96",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G96",
+                  "ref": "G96",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H96",
+                  "ref": "H96",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I96",
+                  "ref": "I96",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J96",
+                  "ref": "J96",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K96",
+                  "ref": "K96",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L96",
+                  "ref": "L96",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M96",
+                  "ref": "M96",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "IGCC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F97",
+                  "ref": "F97",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G97",
+                  "ref": "G97",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H97",
+                  "ref": "H97",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I97",
+                  "ref": "I97",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J97",
+                  "ref": "J97",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K97",
+                  "ref": "K97",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L97",
+                  "ref": "L97",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M97",
+                  "ref": "M97",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ],
+          "total": 100,
+          "description": "Technology shares must total 100% for each year. The workbook dash denotes no contribution."
+        },
+        {
+          "id": "ib-5",
+          "title": "Technology penetrations — Trajectory C",
+          "columns": [
+            "2020",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "SubC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F104",
+                  "ref": "F104",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G104",
+                  "ref": "G104",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H104",
+                  "ref": "H104",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I104",
+                  "ref": "I104",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J104",
+                  "ref": "J104",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K104",
+                  "ref": "K104",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L104",
+                  "ref": "L104",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M104",
+                  "ref": "M104",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "SC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F105",
+                  "ref": "F105",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G105",
+                  "ref": "G105",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H105",
+                  "ref": "H105",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I105",
+                  "ref": "I105",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J105",
+                  "ref": "J105",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K105",
+                  "ref": "K105",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L105",
+                  "ref": "L105",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M105",
+                  "ref": "M105",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "USC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F106",
+                  "ref": "F106",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "allowDash": true
+                },
+                {
+                  "key": "ib_G106",
+                  "ref": "G106",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "allowDash": true
+                },
+                {
+                  "key": "ib_H106",
+                  "ref": "H106",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "allowDash": true
+                },
+                {
+                  "key": "ib_I106",
+                  "ref": "I106",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "allowDash": true
+                },
+                {
+                  "key": "ib_J106",
+                  "ref": "J106",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "allowDash": true
+                },
+                {
+                  "key": "ib_K106",
+                  "ref": "K106",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "allowDash": true
+                },
+                {
+                  "key": "ib_L106",
+                  "ref": "L106",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "allowDash": true
+                },
+                {
+                  "key": "ib_M106",
+                  "ref": "M106",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "allowDash": true
+                }
+              ]
+            },
+            {
+              "label": "IGCC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F107",
+                  "ref": "F107",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G107",
+                  "ref": "G107",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H107",
+                  "ref": "H107",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I107",
+                  "ref": "I107",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J107",
+                  "ref": "J107",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K107",
+                  "ref": "K107",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L107",
+                  "ref": "L107",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M107",
+                  "ref": "M107",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ],
+          "total": 100,
+          "description": "Technology shares must total 100% for each year. The workbook dash denotes no contribution."
+        },
+        {
+          "id": "ib-6",
+          "title": "Technology penetrations — Trajectory D",
+          "columns": [
+            "2020",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "SubC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F113",
+                  "ref": "F113",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G113",
+                  "ref": "G113",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H113",
+                  "ref": "H113",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I113",
+                  "ref": "I113",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J113",
+                  "ref": "J113",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K113",
+                  "ref": "K113",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L113",
+                  "ref": "L113",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M113",
+                  "ref": "M113",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "SC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F114",
+                  "ref": "F114",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G114",
+                  "ref": "G114",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H114",
+                  "ref": "H114",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I114",
+                  "ref": "I114",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J114",
+                  "ref": "J114",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K114",
+                  "ref": "K114",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L114",
+                  "ref": "L114",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M114",
+                  "ref": "M114",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "USC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F115",
+                  "ref": "F115",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G115",
+                  "ref": "G115",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H115",
+                  "ref": "H115",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I115",
+                  "ref": "I115",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J115",
+                  "ref": "J115",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K115",
+                  "ref": "K115",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L115",
+                  "ref": "L115",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M115",
+                  "ref": "M115",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "IGCC",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_F116",
+                  "ref": "F116",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G116",
+                  "ref": "G116",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H116",
+                  "ref": "H116",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I116",
+                  "ref": "I116",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J116",
+                  "ref": "J116",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K116",
+                  "ref": "K116",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L116",
+                  "ref": "L116",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M116",
+                  "ref": "M116",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ],
+          "total": 100,
+          "description": "Technology shares must total 100% for each year. The workbook dash denotes no contribution."
+        },
+        {
+          "id": "ib-7",
+          "title": "Coal Powered Utility Plants New Build",
+          "columns": [
+            "2029"
+          ],
+          "rows": [
+            {
+              "label": "USC",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ib_I137",
+                  "ref": "I137",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ib-8",
+          "title": "Average Plant Load Factor for Utility Power Plants",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_G175",
+                  "ref": "G175",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H175",
+                  "ref": "H175",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I175",
+                  "ref": "I175",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J175",
+                  "ref": "J175",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K175",
+                  "ref": "K175",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L175",
+                  "ref": "L175",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M175",
+                  "ref": "M175",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_G176",
+                  "ref": "G176",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H176",
+                  "ref": "H176",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I176",
+                  "ref": "I176",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J176",
+                  "ref": "J176",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K176",
+                  "ref": "K176",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L176",
+                  "ref": "L176",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M176",
+                  "ref": "M176",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_G177",
+                  "ref": "G177",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H177",
+                  "ref": "H177",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                  "key": "ib_M177",
+                  "ref": "M177",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_G178",
+                  "ref": "G178",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H178",
+                  "ref": "H178",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                  "key": "ib_M178",
+                  "ref": "M178",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ib-9",
+          "title": "Average Plant Load Factor for Captive Power Plants",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_G185",
+                  "ref": "G185",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H185",
+                  "ref": "H185",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I185",
+                  "ref": "I185",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J185",
+                  "ref": "J185",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K185",
+                  "ref": "K185",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L185",
+                  "ref": "L185",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M185",
+                  "ref": "M185",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_G186",
+                  "ref": "G186",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H186",
+                  "ref": "H186",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I186",
+                  "ref": "I186",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J186",
+                  "ref": "J186",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K186",
+                  "ref": "K186",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L186",
+                  "ref": "L186",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M186",
+                  "ref": "M186",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_G187",
+                  "ref": "G187",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H187",
+                  "ref": "H187",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I187",
+                  "ref": "I187",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J187",
+                  "ref": "J187",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K187",
+                  "ref": "K187",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L187",
+                  "ref": "L187",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M187",
+                  "ref": "M187",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_G188",
+                  "ref": "G188",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H188",
+                  "ref": "H188",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I188",
+                  "ref": "I188",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J188",
+                  "ref": "J188",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K188",
+                  "ref": "K188",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L188",
+                  "ref": "L188",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M188",
+                  "ref": "M188",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ib-10",
+          "title": "Own-use requirements (as percentage of supplied electricity)",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Coal Fired Power Stations",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_G195",
+                  "ref": "G195",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_H195",
+                  "ref": "H195",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_I195",
+                  "ref": "I195",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_J195",
+                  "ref": "J195",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_K195",
+                  "ref": "K195",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_L195",
+                  "ref": "L195",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_M195",
+                  "ref": "M195",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ib-11",
+          "title": "Implications",
+          "columns": [
+            "Value"
+          ],
+          "rows": [
+            {
+              "label": "Assumed age of utilities coal TPPs (age < 35 years) (yrs)",
+              "unit": "years",
+              "cells": [
+                {
+                  "key": "ib_G206",
+                  "ref": "G206",
+                  "unit": "years",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Assumed age of captive coal TPPs (age < 30 years) (yrs)",
+              "unit": "years",
+              "cells": [
+                {
+                  "key": "ib_G207",
+                  "ref": "G207",
+                  "unit": "years",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Additional age of TPPs who are above the assumed age (yrs)",
+              "unit": "years",
+              "cells": [
+                {
+                  "key": "ib_G208",
+                  "ref": "G208",
+                  "unit": "years",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Illustrative station size",
+              "unit": "GWpeak",
+              "cells": [
+                {
+                  "key": "ib_F209",
+                  "ref": "F209",
+                  "unit": "GWpeak",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            }
+          ],
+          "reference": false
+        },
+        {
+          "id": "ib-12",
+          "title": "Coal consumption for efficient technologies",
+          "columns": [
+            "Gross Thermal efficiency (%)",
+            "GCV (kcal/kg)",
+            "kcal/KJ",
+            "Specific Coal consumption (kg/kWh)"
+          ],
+          "rows": [
+            {
+              "label": "Subcritical (SubC) (current State)",
+              "unit": "",
+              "cells": [
+                {
+                  "key": "ib_D213",
+                  "ref": "D213",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_E213",
+                  "ref": "E213",
+                  "unit": "kcal/kg",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_F213",
+                  "ref": "F213",
+                  "unit": "kcal/KJ",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ib_G213",
+                  "ref": "G213",
+                  "unit": "kg/kWh",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Supercritical (SC)",
+              "unit": "",
+              "cells": [
+                {
+                  "key": "ib_D214",
+                  "ref": "D214",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "label": "Ultra supercritical (USC)",
+              "unit": "",
+              "cells": [
+                {
+                  "key": "ib_D215",
+                  "ref": "D215",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "label": "Integrated Gasification Combined Cycle (IGCC)",
+              "unit": "",
+              "cells": [
+                {
+                  "key": "ib_D216",
+                  "ref": "D216",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                null,
+                null,
+                null
+              ]
+            }
+          ],
+          "showUnit": false
+        },
+        {
+          "id": "ib-13",
+          "title": "Capital cost of a 1 GW coal Thermal Power Plant — Low estimate",
+          "columns": [
+            "2021",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "SubC",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ib_G223",
+                  "ref": "G223",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_M223",
+                  "ref": "M223",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "SC",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ib_G224",
+                  "ref": "G224",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_M224",
+                  "ref": "M224",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "USC",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ib_G225",
+                  "ref": "G225",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_M225",
+                  "ref": "M225",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "IGCC",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ib_G226",
+                  "ref": "G226",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_M226",
+                  "ref": "M226",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ib-14",
+          "title": "Capital cost of a 1 GW coal Thermal Power Plant — Point estimate",
+          "columns": [
+            "2021",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "SubC",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ib_G231",
+                  "ref": "G231",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                null
+              ]
+            },
+            {
+              "label": "SC",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ib_G232",
+                  "ref": "G232",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                null
+              ]
+            },
+            {
+              "label": "USC",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ib_G233",
+                  "ref": "G233",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                null
+              ]
+            },
+            {
+              "label": "IGCC",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ib_G234",
+                  "ref": "G234",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                null
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ib-15",
+          "title": "Capital cost of a 1 GW coal Thermal Power Plant — High estimate",
+          "columns": [
+            "2021",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "SubC",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ib_G239",
+                  "ref": "G239",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_M239",
+                  "ref": "M239",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "SC",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ib_G240",
+                  "ref": "G240",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_M240",
+                  "ref": "M240",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "USC",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ib_G241",
+                  "ref": "G241",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_M241",
+                  "ref": "M241",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "IGCC",
+              "unit": "INR Billion/GW",
+              "cells": [
+                {
+                  "key": "ib_G242",
+                  "ref": "G242",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_M242",
+                  "ref": "M242",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ib-16",
+          "title": "Land requirement of a 1 GW Domestic coal based Thermal power plant",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Land required",
+              "unit": "'000 ha/GW",
+              "cells": [
+                {
+                  "key": "ib_G274",
+                  "ref": "G274",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_H274",
+                  "ref": "H274",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_I274",
+                  "ref": "I274",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_J274",
+                  "ref": "J274",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_K274",
+                  "ref": "K274",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_L274",
+                  "ref": "L274",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_M274",
+                  "ref": "M274",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ib-17",
+          "title": "Land requirement of a 1 GW Imported coal based Thermal power plant",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Land required",
+              "unit": "'000 ha/GW",
+              "cells": [
+                {
+                  "key": "ib_G279",
+                  "ref": "G279",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_H279",
+                  "ref": "H279",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_I279",
+                  "ref": "I279",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_J279",
+                  "ref": "J279",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_K279",
+                  "ref": "K279",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_L279",
+                  "ref": "L279",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ib_M279",
+                  "ref": "M279",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ib-18",
+          "title": "Additional reference assumptions",
+          "columns": [
+            "Value"
+          ],
+          "rows": [
+            {
+              "label": "Utility growth reference (N64)",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_N64",
+                  "ref": "N64",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "growth": true
+                }
+              ]
+            },
+            {
+              "label": "Utility growth reference (O64)",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_O64",
+                  "ref": "O64",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "growth": true
+                }
+              ]
+            },
+            {
+              "label": "Captive growth reference (N65)",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_N65",
+                  "ref": "N65",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "growth": true
+                }
+              ]
+            },
+            {
+              "label": "Captive growth reference (O65)",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ib_O65",
+                  "ref": "O65",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual",
+                  "growth": true
+                }
+              ]
+            },
+            {
+              "label": "Input Coal requirement — reference (P300)",
+              "unit": "Workbook value",
+              "cells": [
+                {
+                  "key": "ib_P300",
+                  "ref": "P300",
+                  "unit": "Workbook value",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ],
+          "reference": true
+        }
+      ]
+    },
+    {
+      "id": "ic",
+      "title": "I.c Carbon Capture Storage (CCS)",
+      "sheet": "I.c-KS",
+      "tables": [
+        {
+          "id": "ic-1",
+          "title": "CCS, Retired capacity",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ic_G26",
+                  "ref": "G26",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_H26",
+                  "ref": "H26",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_I26",
+                  "ref": "I26",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_J26",
+                  "ref": "J26",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_K26",
+                  "ref": "K26",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_L26",
+                  "ref": "L26",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M26",
+                  "ref": "M26",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ic_G27",
+                  "ref": "G27",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_H27",
+                  "ref": "H27",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_I27",
+                  "ref": "I27",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_J27",
+                  "ref": "J27",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_K27",
+                  "ref": "K27",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_L27",
+                  "ref": "L27",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M27",
+                  "ref": "M27",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ic_G28",
+                  "ref": "G28",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_H28",
+                  "ref": "H28",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_I28",
+                  "ref": "I28",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_J28",
+                  "ref": "J28",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_K28",
+                  "ref": "K28",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_L28",
+                  "ref": "L28",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M28",
+                  "ref": "M28",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ic_G29",
+                  "ref": "G29",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_H29",
+                  "ref": "H29",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_I29",
+                  "ref": "I29",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_J29",
+                  "ref": "J29",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_K29",
+                  "ref": "K29",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_L29",
+                  "ref": "L29",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M29",
+                  "ref": "M29",
+                  "unit": "GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ic-2",
+          "title": "CCS, New Capacity",
+          "columns": [
+            "2021"
+          ],
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "GW/5 year",
+              "cells": [
+                {
+                  "key": "ic_G34",
+                  "ref": "G34",
+                  "unit": "GW/5 year",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "GW/5 year",
+              "cells": [
+                {
+                  "key": "ic_G35",
+                  "ref": "G35",
+                  "unit": "GW/5 year",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "GW/5 year",
+              "cells": [
+                {
+                  "key": "ic_G36",
+                  "ref": "G36",
+                  "unit": "GW/5 year",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "GW/5 year",
+              "cells": [
+                {
+                  "key": "ic_G37",
+                  "ref": "G37",
+                  "unit": "GW/5 year",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ic-3",
+          "title": "Fuel Split",
+          "columns": [
+            "Coal",
+            "Gas"
+          ],
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_D43",
+                  "ref": "D43",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_E43",
+                  "ref": "E43",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_D44",
+                  "ref": "D44",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_E44",
+                  "ref": "E44",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_D45",
+                  "ref": "D45",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_E45",
+                  "ref": "E45",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_D46",
+                  "ref": "D46",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_E46",
+                  "ref": "E46",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ],
+          "total": 100,
+          "totalAcrossRow": true
+        },
+        {
+          "id": "ic-4",
+          "title": "Coal: Pre and Post Combustion Ratio",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Post",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_G52",
+                  "ref": "G52",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H52",
+                  "ref": "H52",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I52",
+                  "ref": "I52",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J52",
+                  "ref": "J52",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K52",
+                  "ref": "K52",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L52",
+                  "ref": "L52",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M52",
+                  "ref": "M52",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Pre",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_G53",
+                  "ref": "G53",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H53",
+                  "ref": "H53",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I53",
+                  "ref": "I53",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J53",
+                  "ref": "J53",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K53",
+                  "ref": "K53",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L53",
+                  "ref": "L53",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M53",
+                  "ref": "M53",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ],
+          "total": 100,
+          "zeroTotalColumns": [
+            0
+          ],
+          "description": "Each year must total 100%; 2021 also permits 0% as in the workbook baseline."
+        },
+        {
+          "id": "ic-5",
+          "title": "Demo Baseline Data (GW)",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Coal — Post",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ic_F60",
+                  "ref": "F60",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G60",
+                  "ref": "G60",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_H60",
+                  "ref": "H60",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_I60",
+                  "ref": "I60",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_J60",
+                  "ref": "J60",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_K60",
+                  "ref": "K60",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_L60",
+                  "ref": "L60",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M60",
+                  "ref": "M60",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            },
+            {
+              "label": "Coal — Pre",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ic_F61",
+                  "ref": "F61",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G61",
+                  "ref": "G61",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_H61",
+                  "ref": "H61",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_I61",
+                  "ref": "I61",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_J61",
+                  "ref": "J61",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_K61",
+                  "ref": "K61",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_L61",
+                  "ref": "L61",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M61",
+                  "ref": "M61",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            },
+            {
+              "label": "Gas",
+              "unit": "GW",
+              "cells": [
+                {
+                  "key": "ic_F62",
+                  "ref": "F62",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G62",
+                  "ref": "G62",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_H62",
+                  "ref": "H62",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_I62",
+                  "ref": "I62",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_J62",
+                  "ref": "J62",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_K62",
+                  "ref": "K62",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_L62",
+                  "ref": "L62",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M62",
+                  "ref": "M62",
+                  "unit": "GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            }
+          ],
+          "hidden": true
+        },
+        {
+          "id": "ic-6",
+          "title": "Unabated Thermal Efficiency",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Coal — Post",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_F67",
+                  "ref": "F67",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_G67",
+                  "ref": "G67",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H67",
+                  "ref": "H67",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I67",
+                  "ref": "I67",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J67",
+                  "ref": "J67",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K67",
+                  "ref": "K67",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L67",
+                  "ref": "L67",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M67",
+                  "ref": "M67",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Coal — Pre",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_F68",
+                  "ref": "F68",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_G68",
+                  "ref": "G68",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H68",
+                  "ref": "H68",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I68",
+                  "ref": "I68",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J68",
+                  "ref": "J68",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K68",
+                  "ref": "K68",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L68",
+                  "ref": "L68",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M68",
+                  "ref": "M68",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Gas",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_F69",
+                  "ref": "F69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_G69",
+                  "ref": "G69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H69",
+                  "ref": "H69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I69",
+                  "ref": "I69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J69",
+                  "ref": "J69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K69",
+                  "ref": "K69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L69",
+                  "ref": "L69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M69",
+                  "ref": "M69",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ic-7",
+          "title": "Parasitic Load : CCS Equipment + Base plant",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Coal — Post",
+              "unit": "%",
+              "cells": [
+                null,
+                {
+                  "key": "ic_G74",
+                  "ref": "G74",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H74",
+                  "ref": "H74",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I74",
+                  "ref": "I74",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J74",
+                  "ref": "J74",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K74",
+                  "ref": "K74",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L74",
+                  "ref": "L74",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M74",
+                  "ref": "M74",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Coal — Pre",
+              "unit": "%",
+              "cells": [
+                null,
+                {
+                  "key": "ic_G75",
+                  "ref": "G75",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H75",
+                  "ref": "H75",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I75",
+                  "ref": "I75",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J75",
+                  "ref": "J75",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K75",
+                  "ref": "K75",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L75",
+                  "ref": "L75",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M75",
+                  "ref": "M75",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Gas",
+              "unit": "%",
+              "cells": [
+                null,
+                {
+                  "key": "ic_G76",
+                  "ref": "G76",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H76",
+                  "ref": "H76",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I76",
+                  "ref": "I76",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J76",
+                  "ref": "J76",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K76",
+                  "ref": "K76",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L76",
+                  "ref": "L76",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M76",
+                  "ref": "M76",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ic-8",
+          "title": "Plant Load Factor",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Coal — Post",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_F81",
+                  "ref": "F81",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_G81",
+                  "ref": "G81",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H81",
+                  "ref": "H81",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I81",
+                  "ref": "I81",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J81",
+                  "ref": "J81",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K81",
+                  "ref": "K81",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L81",
+                  "ref": "L81",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M81",
+                  "ref": "M81",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Coal — Pre",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_F82",
+                  "ref": "F82",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_G82",
+                  "ref": "G82",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H82",
+                  "ref": "H82",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I82",
+                  "ref": "I82",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J82",
+                  "ref": "J82",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K82",
+                  "ref": "K82",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L82",
+                  "ref": "L82",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M82",
+                  "ref": "M82",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Gas",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_F83",
+                  "ref": "F83",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_G83",
+                  "ref": "G83",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H83",
+                  "ref": "H83",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I83",
+                  "ref": "I83",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J83",
+                  "ref": "J83",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K83",
+                  "ref": "K83",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L83",
+                  "ref": "L83",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M83",
+                  "ref": "M83",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ic-9",
+          "title": "Emission Reduction Due to CCS",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Coal — Post",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_F88",
+                  "ref": "F88",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_G88",
+                  "ref": "G88",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H88",
+                  "ref": "H88",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I88",
+                  "ref": "I88",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J88",
+                  "ref": "J88",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K88",
+                  "ref": "K88",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L88",
+                  "ref": "L88",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M88",
+                  "ref": "M88",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Coal — Pre",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_F89",
+                  "ref": "F89",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_G89",
+                  "ref": "G89",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H89",
+                  "ref": "H89",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I89",
+                  "ref": "I89",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J89",
+                  "ref": "J89",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K89",
+                  "ref": "K89",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L89",
+                  "ref": "L89",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M89",
+                  "ref": "M89",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Gas",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ic_F90",
+                  "ref": "F90",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_G90",
+                  "ref": "G90",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H90",
+                  "ref": "H90",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I90",
+                  "ref": "I90",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J90",
+                  "ref": "J90",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K90",
+                  "ref": "K90",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L90",
+                  "ref": "L90",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M90",
+                  "ref": "M90",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ic-10",
+          "title": "CO2 Emission Factor",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Coal — Post",
+              "unit": "Workbook factor",
+              "cells": [
+                {
+                  "key": "ic_F94",
+                  "ref": "F94",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_G94",
+                  "ref": "G94",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H94",
+                  "ref": "H94",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I94",
+                  "ref": "I94",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J94",
+                  "ref": "J94",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K94",
+                  "ref": "K94",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L94",
+                  "ref": "L94",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M94",
+                  "ref": "M94",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Coal — Pre",
+              "unit": "Workbook factor",
+              "cells": [
+                {
+                  "key": "ic_F95",
+                  "ref": "F95",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_G95",
+                  "ref": "G95",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H95",
+                  "ref": "H95",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I95",
+                  "ref": "I95",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J95",
+                  "ref": "J95",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K95",
+                  "ref": "K95",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L95",
+                  "ref": "L95",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M95",
+                  "ref": "M95",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Gas",
+              "unit": "Workbook factor",
+              "cells": [
+                {
+                  "key": "ic_F96",
+                  "ref": "F96",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_G96",
+                  "ref": "G96",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_H96",
+                  "ref": "H96",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_I96",
+                  "ref": "I96",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_J96",
+                  "ref": "J96",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_K96",
+                  "ref": "K96",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_L96",
+                  "ref": "L96",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ic_M96",
+                  "ref": "M96",
+                  "unit": "Workbook factor",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ic-11",
+          "title": "Capital cost of 1 GW Coal CCS",
+          "columns": [
+            "2010",
+            "2021",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Low estimate",
+              "unit": "INR Billion/GW",
+              "delta": {
+                "key": "ic_E106",
+                "ref": "E106",
+                "unit": "decimal/year",
+                "hidden": false,
+                "kind": "manual",
+                "growth": true
+              },
+              "cells": [
+                {
+                  "key": "ic_F106",
+                  "ref": "F106",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G106",
+                  "ref": "G106",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M106",
+                  "ref": "M106",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Point estimate",
+              "unit": "INR Billion/GW",
+              "delta": {
+                "key": "ic_E107",
+                "ref": "E107",
+                "unit": "decimal/year",
+                "hidden": false,
+                "kind": "manual",
+                "growth": true
+              },
+              "cells": [
+                null,
+                {
+                  "key": "ic_G107",
+                  "ref": "G107",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M107",
+                  "ref": "M107",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "High estimate",
+              "unit": "INR Billion/GW",
+              "delta": {
+                "key": "ic_E108",
+                "ref": "E108",
+                "unit": "decimal/year",
+                "hidden": false,
+                "kind": "manual",
+                "growth": true
+              },
+              "cells": [
+                {
+                  "key": "ic_F108",
+                  "ref": "F108",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G108",
+                  "ref": "G108",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M108",
+                  "ref": "M108",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ],
+          "delta": true
+        },
+        {
+          "id": "ic-12",
+          "title": "Capital cost of 1 GW Gas CCS",
+          "columns": [
+            "2010",
+            "2021",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Low estimate",
+              "unit": "INR Billion/GW",
+              "delta": {
+                "key": "ic_E113",
+                "ref": "E113",
+                "unit": "decimal/year",
+                "hidden": false,
+                "kind": "manual",
+                "growth": true
+              },
+              "cells": [
+                {
+                  "key": "ic_F113",
+                  "ref": "F113",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G113",
+                  "ref": "G113",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M113",
+                  "ref": "M113",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Point estimate",
+              "unit": "INR Billion/GW",
+              "delta": {
+                "key": "ic_E114",
+                "ref": "E114",
+                "unit": "decimal/year",
+                "hidden": false,
+                "kind": "manual",
+                "growth": true
+              },
+              "cells": [
+                {
+                  "key": "ic_F114",
+                  "ref": "F114",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G114",
+                  "ref": "G114",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M114",
+                  "ref": "M114",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "High estimate",
+              "unit": "INR Billion/GW",
+              "delta": {
+                "key": "ic_E115",
+                "ref": "E115",
+                "unit": "decimal/year",
+                "hidden": false,
+                "kind": "manual",
+                "growth": true
+              },
+              "cells": [
+                {
+                  "key": "ic_F115",
+                  "ref": "F115",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G115",
+                  "ref": "G115",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M115",
+                  "ref": "M115",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ],
+          "delta": true
+        },
+        {
+          "id": "ic-13",
+          "title": "Operating cost of 1 GW Coal CCS",
+          "columns": [
+            "2010",
+            "2021",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Low estimate",
+              "unit": "INR Billion/GW",
+              "delta": {
+                "key": "ic_E120",
+                "ref": "E120",
+                "unit": "decimal/year",
+                "hidden": false,
+                "kind": "manual",
+                "growth": true
+              },
+              "cells": [
+                {
+                  "key": "ic_F120",
+                  "ref": "F120",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G120",
+                  "ref": "G120",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M120",
+                  "ref": "M120",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Point estimate",
+              "unit": "INR Billion/GW",
+              "delta": {
+                "key": "ic_E121",
+                "ref": "E121",
+                "unit": "decimal/year",
+                "hidden": false,
+                "kind": "manual",
+                "growth": true
+              },
+              "cells": [
+                {
+                  "key": "ic_F121",
+                  "ref": "F121",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G121",
+                  "ref": "G121",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M121",
+                  "ref": "M121",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "High estimate",
+              "unit": "INR Billion/GW",
+              "delta": {
+                "key": "ic_E122",
+                "ref": "E122",
+                "unit": "decimal/year",
+                "hidden": false,
+                "kind": "manual",
+                "growth": true
+              },
+              "cells": [
+                {
+                  "key": "ic_F122",
+                  "ref": "F122",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G122",
+                  "ref": "G122",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M122",
+                  "ref": "M122",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ],
+          "delta": true
+        },
+        {
+          "id": "ic-14",
+          "title": "Operating cost of 1 GW Gas CCS",
+          "columns": [
+            "2010",
+            "2021",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Low estimate",
+              "unit": "INR Billion/GW",
+              "delta": {
+                "key": "ic_E127",
+                "ref": "E127",
+                "unit": "decimal/year",
+                "hidden": false,
+                "kind": "manual",
+                "growth": true
+              },
+              "cells": [
+                {
+                  "key": "ic_F127",
+                  "ref": "F127",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G127",
+                  "ref": "G127",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M127",
+                  "ref": "M127",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Point estimate",
+              "unit": "INR Billion/GW",
+              "delta": {
+                "key": "ic_E128",
+                "ref": "E128",
+                "unit": "decimal/year",
+                "hidden": false,
+                "kind": "manual",
+                "growth": true
+              },
+              "cells": [
+                {
+                  "key": "ic_F128",
+                  "ref": "F128",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G128",
+                  "ref": "G128",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M128",
+                  "ref": "M128",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "High estimate",
+              "unit": "INR Billion/GW",
+              "delta": {
+                "key": "ic_E129",
+                "ref": "E129",
+                "unit": "decimal/year",
+                "hidden": false,
+                "kind": "manual",
+                "growth": true
+              },
+              "cells": [
+                {
+                  "key": "ic_F129",
+                  "ref": "F129",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G129",
+                  "ref": "G129",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M129",
+                  "ref": "M129",
+                  "unit": "INR Billion/GW",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ],
+          "delta": true
+        },
+        {
+          "id": "ic-15",
+          "title": "Land requirement of a 1 GW CCS Plant",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Land required",
+              "unit": "'000 ha/GW",
+              "cells": [
+                {
+                  "key": "ic_F140",
+                  "ref": "F140",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_G140",
+                  "ref": "G140",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_H140",
+                  "ref": "H140",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_I140",
+                  "ref": "I140",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_J140",
+                  "ref": "J140",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_K140",
+                  "ref": "K140",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_L140",
+                  "ref": "L140",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                },
+                {
+                  "key": "ic_M140",
+                  "ref": "M140",
+                  "unit": "'000 ha/GW",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "id",
+      "title": "I.d Electricity Balancing Requirement",
+      "sheet": "I.d-KS",
+      "tables": [
+        {
+          "id": "id-1",
+          "title": "Own-use requirements (as percentage of supplied electricity)",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Coal Fired Power Stations",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "id_G22",
+                  "ref": "G22",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_H22",
+                  "ref": "H22",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_I22",
+                  "ref": "I22",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_J22",
+                  "ref": "J22",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_K22",
+                  "ref": "K22",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_L22",
+                  "ref": "L22",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_M22",
+                  "ref": "M22",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "id-2",
+          "title": "Thermal efficiency (based on gross calorific values)",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Coal Fired Power Stations",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "id_G27",
+                  "ref": "G27",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_H27",
+                  "ref": "H27",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_I27",
+                  "ref": "I27",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_J27",
+                  "ref": "J27",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_K27",
+                  "ref": "K27",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_L27",
+                  "ref": "L27",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_M27",
+                  "ref": "M27",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "id-3",
+          "title": "Fixed assumptions",
+          "columns": [
+            "Value"
+          ],
+          "rows": [
+            {
+              "label": "Assumed Age of Coal SC Power Plants",
+              "unit": "years",
+              "cells": [
+                {
+                  "key": "id_E35",
+                  "ref": "E35",
+                  "unit": "years",
+                  "hidden": false,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            }
+          ],
+          "reference": false
+        },
+        {
+          "id": "id-4",
+          "title": "Land assumptions",
+          "columns": [
+            "Value"
+          ],
+          "rows": [
+            {
+              "label": "Land Requirement of Imported Coal Based Thermal Power Plant",
+              "unit": "'000 ha/GW",
+              "cells": [
+                {
+                  "key": "id_E61",
+                  "ref": "E61",
+                  "unit": "'000 ha/GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            },
+            {
+              "label": "Land Requirement of Domestic Coal Based Thermal Power Plant",
+              "unit": "'000 ha/GW",
+              "cells": [
+                {
+                  "key": "id_E62",
+                  "ref": "E62",
+                  "unit": "'000 ha/GW",
+                  "hidden": true,
+                  "kind": "normalized-constant",
+                  "normalize": true
+                }
+              ]
+            }
+          ],
+          "hidden": true
+        },
+        {
+          "id": "id-5",
+          "title": "Savings Potential of Energy",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "E.01",
+              "unit": "TWh",
+              "cells": [
+                {
+                  "key": "id_G77",
+                  "ref": "G77",
+                  "unit": "TWh",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_H77",
+                  "ref": "H77",
+                  "unit": "TWh",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_I77",
+                  "ref": "I77",
+                  "unit": "TWh",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_J77",
+                  "ref": "J77",
+                  "unit": "TWh",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_K77",
+                  "ref": "K77",
+                  "unit": "TWh",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_L77",
+                  "ref": "L77",
+                  "unit": "TWh",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "id_M77",
+                  "ref": "M77",
+                  "unit": "TWh",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "id-6",
+          "title": "Costs of this physical change — operating cost overrides",
+          "columns": [
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Low estimate",
+              "unit": "INR Billion/year",
+              "cells": [
+                {
+                  "key": "id_M162",
+                  "ref": "M162",
+                  "unit": "INR Billion/year",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "Point estimate",
+              "unit": "INR Billion/year",
+              "cells": [
+                {
+                  "key": "id_M163",
+                  "ref": "M163",
+                  "unit": "INR Billion/year",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            },
+            {
+              "label": "High estimate",
+              "unit": "INR Billion/year",
+              "cells": [
+                {
+                  "key": "id_M164",
+                  "ref": "M164",
+                  "unit": "INR Billion/year",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ],
+          "reference": true
+        }
+      ]
+    },
+    {
+      "id": "ie",
+      "title": "I.e Back up electricity by diesel",
+      "sheet": "I.e-KS",
+      "tables": [
+        {
+          "id": "ie-1",
+          "title": "Own-use requirements (as percentage of supplied electricity)",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Local diesel generators",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ie_G19",
+                  "ref": "G19",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_H19",
+                  "ref": "H19",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_I19",
+                  "ref": "I19",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_J19",
+                  "ref": "J19",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_K19",
+                  "ref": "K19",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_L19",
+                  "ref": "L19",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_M19",
+                  "ref": "M19",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ie-2",
+          "title": "Thermal efficiency (based on gross calorific values)",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Local diesel generators",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ie_G24",
+                  "ref": "G24",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_H24",
+                  "ref": "H24",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_I24",
+                  "ref": "I24",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_J24",
+                  "ref": "J24",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_K24",
+                  "ref": "K24",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_L24",
+                  "ref": "L24",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_M24",
+                  "ref": "M24",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ie-3",
+          "title": "Load Factor",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "rows": [
+            {
+              "label": "Local diesel generators",
+              "unit": "%",
+              "cells": [
+                {
+                  "key": "ie_G29",
+                  "ref": "G29",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_H29",
+                  "ref": "H29",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_I29",
+                  "ref": "I29",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_J29",
+                  "ref": "J29",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_K29",
+                  "ref": "K29",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_L29",
+                  "ref": "L29",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                },
+                {
+                  "key": "ie_M29",
+                  "ref": "M29",
+                  "unit": "%",
+                  "hidden": false,
+                  "kind": "manual"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

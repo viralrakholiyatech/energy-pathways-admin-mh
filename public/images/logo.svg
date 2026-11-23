@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48" fill="none">
+  <!-- 3D Stacked Blue Logo -->
+  <g transform="translate(6, 6) scale(1)">
+    <path d="M18 31L6 24.5L18 18L30 24.5L18 31Z" fill="#1E40AF"/>
+    <path d="M6 24.5L18 31V33.5L6 27V24.5Z" fill="#1E3A8A"/>
+    <path d="M30 24.5L18 31V33.5L30 27V24.5Z" fill="#172554"/>
+
+    <path d="M18 22.5L6 16L18 9.5L30 16L18 22.5Z" fill="#2563EB"/>
+    <path d="M6 16L18 22.5V25L6 18.5V16Z" fill="#1D4ED8"/>
+    <path d="M30 16L18 22.5V25L30 18.5V16Z" fill="#1E40AF"/>
+
+    <path d="M18 14L6 7.5L18 1L30 7.5L18 14Z" fill="#60A5FA"/>
+    <path d="M6 7.5L18 14V16.5L6 10V7.5Z" fill="#3B82F6"/>
+    <path d="M30 7.5L18 14V16.5L30 10V7.5Z" fill="#2563EB"/>
+  </g>
+  <!-- Text -->
+  <text x="52" y="24" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0F172A">Data Admin</text>
+  <text x="52" y="38" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748B">Management Portal</text>
+</svg>

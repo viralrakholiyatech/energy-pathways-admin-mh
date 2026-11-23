@@ -1,0 +1,627 @@
+{
+  "sections": [
+    {
+      "id": "viii",
+      "tab": "VIII",
+      "sheet": "VIII",
+      "title": "H2 Production for Transport",
+      "tables": [
+        {
+          "title": "Technology penetration ? Trajectory 1",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Technology",
+          "rows": [
+            {
+              "label": "Coal Reforming",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G23"
+                },
+                {
+                  "ref": "H23"
+                },
+                {
+                  "ref": "I23"
+                },
+                {
+                  "ref": "J23"
+                },
+                {
+                  "ref": "K23"
+                },
+                {
+                  "ref": "L23"
+                },
+                {
+                  "ref": "M23"
+                }
+              ]
+            },
+            {
+              "label": "Gas Reforming",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G24"
+                },
+                {
+                  "ref": "H24"
+                },
+                {
+                  "ref": "I24"
+                },
+                {
+                  "ref": "J24"
+                },
+                {
+                  "ref": "K24"
+                },
+                {
+                  "ref": "L24"
+                },
+                {
+                  "ref": "M24"
+                }
+              ]
+            },
+            {
+              "label": "Electrolysis",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G25"
+                },
+                {
+                  "ref": "H25"
+                },
+                {
+                  "ref": "I25"
+                },
+                {
+                  "ref": "J25"
+                },
+                {
+                  "ref": "K25"
+                },
+                {
+                  "ref": "L25"
+                },
+                {
+                  "ref": "M25"
+                }
+              ]
+            },
+            {
+              "label": "Biogas",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G26"
+                },
+                {
+                  "ref": "H26"
+                },
+                {
+                  "ref": "I26"
+                },
+                {
+                  "ref": "J26"
+                },
+                {
+                  "ref": "K26"
+                },
+                {
+                  "ref": "L26"
+                },
+                {
+                  "ref": "M26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Technology penetration ? Trajectory 2",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Technology",
+          "rows": [
+            {
+              "label": "Coal Reforming",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G27"
+                },
+                {
+                  "ref": "H27"
+                },
+                {
+                  "ref": "I27"
+                },
+                {
+                  "ref": "J27"
+                },
+                {
+                  "ref": "K27"
+                },
+                {
+                  "ref": "L27"
+                },
+                {
+                  "ref": "M27"
+                }
+              ]
+            },
+            {
+              "label": "Gas Reforming",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G28"
+                },
+                {
+                  "ref": "H28"
+                },
+                {
+                  "ref": "I28"
+                },
+                {
+                  "ref": "J28"
+                },
+                {
+                  "ref": "K28"
+                },
+                {
+                  "ref": "L28"
+                },
+                {
+                  "ref": "M28"
+                }
+              ]
+            },
+            {
+              "label": "Electrolysis",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G29"
+                },
+                {
+                  "ref": "H29"
+                },
+                {
+                  "ref": "I29"
+                },
+                {
+                  "ref": "J29"
+                },
+                {
+                  "ref": "K29"
+                },
+                {
+                  "ref": "L29"
+                },
+                {
+                  "ref": "M29"
+                }
+              ]
+            },
+            {
+              "label": "Biogas",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G30"
+                },
+                {
+                  "ref": "H30"
+                },
+                {
+                  "ref": "I30"
+                },
+                {
+                  "ref": "J30"
+                },
+                {
+                  "ref": "K30"
+                },
+                {
+                  "ref": "L30"
+                },
+                {
+                  "ref": "M30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Technology penetration ? Trajectory 3",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Technology",
+          "rows": [
+            {
+              "label": "Coal Reforming",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G31"
+                },
+                {
+                  "ref": "H31"
+                },
+                {
+                  "ref": "I31"
+                },
+                {
+                  "ref": "J31"
+                },
+                {
+                  "ref": "K31"
+                },
+                {
+                  "ref": "L31"
+                },
+                {
+                  "ref": "M31"
+                }
+              ]
+            },
+            {
+              "label": "Gas Reforming",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G32"
+                },
+                {
+                  "ref": "H32"
+                },
+                {
+                  "ref": "I32"
+                },
+                {
+                  "ref": "J32"
+                },
+                {
+                  "ref": "K32"
+                },
+                {
+                  "ref": "L32"
+                },
+                {
+                  "ref": "M32"
+                }
+              ]
+            },
+            {
+              "label": "Electrolysis",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G33"
+                },
+                {
+                  "ref": "H33"
+                },
+                {
+                  "ref": "I33"
+                },
+                {
+                  "ref": "J33"
+                },
+                {
+                  "ref": "K33"
+                },
+                {
+                  "ref": "L33"
+                },
+                {
+                  "ref": "M33"
+                }
+              ]
+            },
+            {
+              "label": "Biogas",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G34"
+                },
+                {
+                  "ref": "H34"
+                },
+                {
+                  "ref": "I34"
+                },
+                {
+                  "ref": "J34"
+                },
+                {
+                  "ref": "K34"
+                },
+                {
+                  "ref": "L34"
+                },
+                {
+                  "ref": "M34"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Technology penetration ? Trajectory 4",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Technology",
+          "rows": [
+            {
+              "label": "Coal Reforming",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G35"
+                },
+                {
+                  "ref": "H35"
+                },
+                {
+                  "ref": "I35"
+                },
+                {
+                  "ref": "J35"
+                },
+                {
+                  "ref": "K35"
+                },
+                {
+                  "ref": "L35"
+                },
+                {
+                  "ref": "M35"
+                }
+              ]
+            },
+            {
+              "label": "Gas Reforming",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G36"
+                },
+                {
+                  "ref": "H36"
+                },
+                {
+                  "ref": "I36"
+                },
+                {
+                  "ref": "J36"
+                },
+                {
+                  "ref": "K36"
+                },
+                {
+                  "ref": "L36"
+                },
+                {
+                  "ref": "M36"
+                }
+              ]
+            },
+            {
+              "label": "Electrolysis",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G37"
+                },
+                {
+                  "ref": "H37"
+                },
+                {
+                  "ref": "I37"
+                },
+                {
+                  "ref": "J37"
+                },
+                {
+                  "ref": "K37"
+                },
+                {
+                  "ref": "L37"
+                },
+                {
+                  "ref": "M37"
+                }
+              ]
+            },
+            {
+              "label": "Biogas",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G38"
+                },
+                {
+                  "ref": "H38"
+                },
+                {
+                  "ref": "I38"
+                },
+                {
+                  "ref": "J38"
+                },
+                {
+                  "ref": "K38"
+                },
+                {
+                  "ref": "L38"
+                },
+                {
+                  "ref": "M38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Efficiency Assumption of technologies (Same across all levels)",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Technology",
+          "rows": [
+            {
+              "label": "Coal Reforming",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G47"
+                },
+                {
+                  "ref": "H47"
+                },
+                {
+                  "ref": "I47"
+                },
+                {
+                  "ref": "J47"
+                },
+                {
+                  "ref": "K47"
+                },
+                {
+                  "ref": "L47"
+                },
+                {
+                  "ref": "M47"
+                }
+              ]
+            },
+            {
+              "label": "Gas Reforming",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G48"
+                },
+                {
+                  "ref": "H48"
+                },
+                {
+                  "ref": "I48"
+                },
+                {
+                  "ref": "J48"
+                },
+                {
+                  "ref": "K48"
+                },
+                {
+                  "ref": "L48"
+                },
+                {
+                  "ref": "M48"
+                }
+              ]
+            },
+            {
+              "label": "Electrolysis",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G49"
+                },
+                {
+                  "ref": "H49"
+                },
+                {
+                  "ref": "I49"
+                },
+                {
+                  "ref": "J49"
+                },
+                {
+                  "ref": "K49"
+                },
+                {
+                  "ref": "L49"
+                },
+                {
+                  "ref": "M49"
+                }
+              ]
+            },
+            {
+              "label": "Biogas",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G50"
+                },
+                {
+                  "ref": "H50"
+                },
+                {
+                  "ref": "I50"
+                },
+                {
+                  "ref": "J50"
+                },
+                {
+                  "ref": "K50"
+                },
+                {
+                  "ref": "L50"
+                },
+                {
+                  "ref": "M50"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3312 @@
+[
+  {
+    "start": "B8",
+    "title": "Electricity Generation Mix",
+    "header": {
+      "D": [
+        "text",
+        "Technology"
+      ],
+      "G": [
+        "text",
+        "2021"
+      ],
+      "H": [
+        "text",
+        "2022"
+      ],
+      "I": [
+        "text",
+        "2023"
+      ],
+      "J": [
+        "text",
+        "2030"
+      ],
+      "K": [
+        "text",
+        "2035"
+      ],
+      "L": [
+        "text",
+        "2040"
+      ],
+      "M": [
+        "text",
+        "2045"
+      ],
+      "N": [
+        "text",
+        "2047"
+      ],
+      "O": [
+        "text",
+        "2050"
+      ],
+      "P": [
+        "text",
+        "2055"
+      ],
+      "Q": [
+        "text",
+        "2060"
+      ],
+      "R": [
+        "text",
+        "2065"
+      ],
+      "S": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "D",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+    ],
+    "rows": [
+      {
+        "r": 11,
+        "c": {
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 12,
+        "c": {
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 13,
+        "c": {
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 14,
+        "c": {
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 15,
+        "c": {
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 16,
+        "c": {
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 17,
+        "c": {
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 18,
+        "c": {
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 19,
+        "c": {
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 20,
+        "c": {
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 21,
+        "c": {
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 22,
+        "c": {
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 23,
+        "c": {
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 24,
+        "c": {
+          "D": [
+            "text",
+            "Total"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 27,
+        "c": {
+          "D": [
+            "text",
+            "Share of PV in generation"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": "D30",
+    "title": "Empirical relation between per unit storage and share of PV generation in the mix",
+    "header": {
+      "D": [
+        "text",
+        "GWh storage/TWh generation"
+      ],
+      "G": [
+        "text",
+        "2021"
+      ],
+      "H": [
+        "text",
+        "2022"
+      ],
+      "I": [
+        "text",
+        "2023"
+      ],
+      "J": [
+        "text",
+        "2030"
+      ],
+      "K": [
+        "text",
+        "2035"
+      ],
+      "L": [
+        "text",
+        "2040"
+      ],
+      "M": [
+        "text",
+        "2045"
+      ],
+      "N": [
+        "text",
+        "2047"
+      ],
+      "O": [
+        "text",
+        "2050"
+      ],
+      "P": [
+        "text",
+        "2055"
+      ],
+      "Q": [
+        "text",
+        "2060"
+      ],
+      "R": [
+        "text",
+        "2065"
+      ],
+      "S": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "D",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S"
+    ],
+    "rows": [
+      {
+        "r": 36,
+        "c": {
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "D": [
+            "text",
+            "GWh storage/TWh generation"
+          ]
+        }
+      },
+      {
+        "r": 38,
+        "c": {
+          "D": [
+            "text",
+            "GWh Storage Requirement"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": "D40",
+    "title": "Pumped Hydro Capacity",
+    "rows": []
+  },
+  {
+    "start": "C41",
+    "title": "Costs of this physical change",
+    "header": {
+      "C": [
+        "text",
+        "Vector"
+      ],
+      "D": [
+        "text",
+        "Name"
+      ],
+      "E": [
+        "text",
+        "Notes"
+      ],
+      "G": [
+        "text",
+        "2012"
+      ],
+      "H": [
+        "text",
+        "2017"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2030"
+      ],
+      "K": [
+        "text",
+        "2035"
+      ],
+      "L": [
+        "text",
+        "2040"
+      ],
+      "M": [
+        "text",
+        "2045"
+      ],
+      "N": [
+        "text",
+        "2047"
+      ],
+      "O": [
+        "text",
+        "2052"
+      ]
+    },
+    "columns": [
+      "C",
+      "D",
+      "E",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ],
+    "rows": [
+      {
+        "r": 44,
+        "c": {
+          "C": [
+            "text",
+            "C1.Low"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 45,
+        "c": {
+          "C": [
+            "text",
+            "C2.Low"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 46,
+        "c": {
+          "C": [
+            "text",
+            "C1.Point"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 47,
+        "c": {
+          "C": [
+            "text",
+            "C2.Point"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 48,
+        "c": {
+          "C": [
+            "text",
+            "C1.High"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 49,
+        "c": {
+          "C": [
+            "text",
+            "C2.High"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": "D63",
+    "title": "GWh Storage Requirement",
+    "header": {
+      "G": [
+        "text",
+        "2020"
+      ],
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2024"
+      ],
+      "L": [
+        "text",
+        "2025"
+      ],
+      "M": [
+        "text",
+        "2026"
+      ],
+      "N": [
+        "text",
+        "2030"
+      ],
+      "O": [
+        "text",
+        "2028"
+      ],
+      "P": [
+        "text",
+        "2029"
+      ],
+      "Q": [
+        "text",
+        "2030"
+      ],
+      "R": [
+        "text",
+        "2031"
+      ],
+      "S": [
+        "text",
+        "2035"
+      ],
+      "T": [
+        "text",
+        "2033"
+      ],
+      "U": [
+        "text",
+        "2034"
+      ],
+      "V": [
+        "text",
+        "2035"
+      ],
+      "W": [
+        "text",
+        "2036"
+      ],
+      "X": [
+        "text",
+        "2040"
+      ],
+      "Y": [
+        "text",
+        "2038"
+      ],
+      "Z": [
+        "text",
+        "2039"
+      ],
+      "AA": [
+        "text",
+        "2040"
+      ],
+      "AB": [
+        "text",
+        "2041"
+      ],
+      "AC": [
+        "text",
+        "2045"
+      ],
+      "AD": [
+        "text",
+        "2043"
+      ],
+      "AE": [
+        "text",
+        "2044"
+      ],
+      "AF": [
+        "text",
+        "2045"
+      ],
+      "AG": [
+        "text",
+        "2046"
+      ],
+      "AH": [
+        "text",
+        "2047"
+      ]
+    },
+    "columns": [
+      "D",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AH"
+    ],
+    "rows": [
+      {
+        "r": 63,
+        "c": {
+          "D": [
+            "text",
+            "GWh Storage Requirement"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ],
+          "U": [
+            "formula",
+            "-"
+          ],
+          "V": [
+            "formula",
+            "-"
+          ],
+          "W": [
+            "formula",
+            "-"
+          ],
+          "X": [
+            "formula",
+            "-"
+          ],
+          "Y": [
+            "formula",
+            "-"
+          ],
+          "Z": [
+            "formula",
+            "-"
+          ],
+          "AA": [
+            "formula",
+            "-"
+          ],
+          "AB": [
+            "formula",
+            "-"
+          ],
+          "AC": [
+            "formula",
+            "-"
+          ],
+          "AD": [
+            "formula",
+            "-"
+          ],
+          "AE": [
+            "formula",
+            "-"
+          ],
+          "AF": [
+            "formula",
+            "-"
+          ],
+          "AG": [
+            "formula",
+            "-"
+          ],
+          "AH": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 64,
+        "c": {
+          "D": [
+            "text",
+            "Increment GWh storage requirement"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ],
+          "U": [
+            "formula",
+            "-"
+          ],
+          "V": [
+            "formula",
+            "-"
+          ],
+          "W": [
+            "formula",
+            "-"
+          ],
+          "X": [
+            "formula",
+            "-"
+          ],
+          "Y": [
+            "formula",
+            "-"
+          ],
+          "Z": [
+            "formula",
+            "-"
+          ],
+          "AA": [
+            "formula",
+            "-"
+          ],
+          "AB": [
+            "formula",
+            "-"
+          ],
+          "AC": [
+            "formula",
+            "-"
+          ],
+          "AD": [
+            "formula",
+            "-"
+          ],
+          "AE": [
+            "formula",
+            "-"
+          ],
+          "AF": [
+            "formula",
+            "-"
+          ],
+          "AG": [
+            "formula",
+            "-"
+          ],
+          "AH": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 65,
+        "c": {
+          "D": [
+            "text",
+            "Increment GWh storage requirement considering lifetime of 10 years"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ],
+          "U": [
+            "formula",
+            "-"
+          ],
+          "V": [
+            "formula",
+            "-"
+          ],
+          "W": [
+            "formula",
+            "-"
+          ],
+          "X": [
+            "formula",
+            "-"
+          ],
+          "Y": [
+            "formula",
+            "-"
+          ],
+          "Z": [
+            "formula",
+            "-"
+          ],
+          "AA": [
+            "formula",
+            "-"
+          ],
+          "AB": [
+            "formula",
+            "-"
+          ],
+          "AC": [
+            "formula",
+            "-"
+          ],
+          "AD": [
+            "formula",
+            "-"
+          ],
+          "AE": [
+            "formula",
+            "-"
+          ],
+          "AF": [
+            "formula",
+            "-"
+          ],
+          "AG": [
+            "formula",
+            "-"
+          ],
+          "AH": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": "D69",
+    "title": "Battery Storage",
+    "rows": []
+  },
+  {
+    "start": "D70",
+    "title": "Capital Cost (Cr. INR/MWh)",
+    "header": {
+      "G": [
+        "text",
+        "2020"
+      ],
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2024"
+      ],
+      "L": [
+        "text",
+        "2025"
+      ],
+      "M": [
+        "text",
+        "2026"
+      ],
+      "N": [
+        "text",
+        "2030"
+      ],
+      "O": [
+        "text",
+        "2028"
+      ],
+      "P": [
+        "text",
+        "2029"
+      ],
+      "Q": [
+        "text",
+        "2030"
+      ],
+      "R": [
+        "text",
+        "2031"
+      ],
+      "S": [
+        "text",
+        "2035"
+      ],
+      "T": [
+        "text",
+        "2033"
+      ],
+      "U": [
+        "text",
+        "2034"
+      ],
+      "V": [
+        "text",
+        "2035"
+      ],
+      "W": [
+        "text",
+        "2036"
+      ],
+      "X": [
+        "text",
+        "2040"
+      ],
+      "Y": [
+        "text",
+        "2038"
+      ],
+      "Z": [
+        "text",
+        "2039"
+      ],
+      "AA": [
+        "text",
+        "2040"
+      ],
+      "AB": [
+        "text",
+        "2041"
+      ],
+      "AC": [
+        "text",
+        "2045"
+      ],
+      "AD": [
+        "text",
+        "2043"
+      ],
+      "AE": [
+        "text",
+        "2044"
+      ],
+      "AF": [
+        "text",
+        "2045"
+      ],
+      "AG": [
+        "text",
+        "2046"
+      ],
+      "AH": [
+        "text",
+        "2047"
+      ]
+    },
+    "columns": [
+      "D",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AH"
+    ],
+    "rows": [
+      {
+        "r": 71,
+        "c": {
+          "D": [
+            "text",
+            "HIGH"
+          ],
+          "G": [
+            "number",
+            "2.4"
+          ],
+          "H": [
+            "number",
+            "2.4"
+          ],
+          "I": [
+            "number",
+            "2.4"
+          ],
+          "J": [
+            "number",
+            "2.4"
+          ],
+          "K": [
+            "number",
+            "2.4"
+          ],
+          "L": [
+            "number",
+            "2.4"
+          ],
+          "M": [
+            "number",
+            "2.4"
+          ],
+          "N": [
+            "number",
+            "2.4"
+          ],
+          "O": [
+            "number",
+            "2.4"
+          ],
+          "P": [
+            "number",
+            "2.4"
+          ],
+          "Q": [
+            "number",
+            "2.4"
+          ],
+          "R": [
+            "number",
+            "2.32941176470588"
+          ],
+          "S": [
+            "number",
+            "2.25882352941176"
+          ],
+          "T": [
+            "number",
+            "2.18823529411765"
+          ],
+          "U": [
+            "number",
+            "2.11764705882353"
+          ],
+          "V": [
+            "number",
+            "2.04705882352941"
+          ],
+          "W": [
+            "number",
+            "1.97647058823529"
+          ],
+          "X": [
+            "number",
+            "1.90588235294118"
+          ],
+          "Y": [
+            "number",
+            "1.83529411764706"
+          ],
+          "Z": [
+            "number",
+            "1.76470588235294"
+          ],
+          "AA": [
+            "number",
+            "1.69411764705882"
+          ],
+          "AB": [
+            "number",
+            "1.62352941176471"
+          ],
+          "AC": [
+            "number",
+            "1.55294117647059"
+          ],
+          "AD": [
+            "number",
+            "1.48235294117647"
+          ],
+          "AE": [
+            "number",
+            "1.41176470588235"
+          ],
+          "AF": [
+            "number",
+            "1.34117647058824"
+          ],
+          "AG": [
+            "number",
+            "1.27058823529412"
+          ],
+          "AH": [
+            "number",
+            "1.2"
+          ]
+        }
+      },
+      {
+        "r": 72,
+        "c": {
+          "D": [
+            "text",
+            "POINT"
+          ],
+          "G": [
+            "number",
+            "2.3"
+          ],
+          "H": [
+            "number",
+            "2.3"
+          ],
+          "I": [
+            "number",
+            "2.3"
+          ],
+          "J": [
+            "number",
+            "2.3"
+          ],
+          "K": [
+            "number",
+            "2.3"
+          ],
+          "L": [
+            "number",
+            "2.3"
+          ],
+          "M": [
+            "number",
+            "2.3"
+          ],
+          "N": [
+            "number",
+            "2.3"
+          ],
+          "O": [
+            "number",
+            "2.3"
+          ],
+          "P": [
+            "number",
+            "2.3"
+          ],
+          "Q": [
+            "number",
+            "2.3"
+          ],
+          "R": [
+            "number",
+            "2.21470588235294"
+          ],
+          "S": [
+            "number",
+            "2.12941176470588"
+          ],
+          "T": [
+            "number",
+            "2.04411764705882"
+          ],
+          "U": [
+            "number",
+            "1.95882352941176"
+          ],
+          "V": [
+            "number",
+            "1.87352941176471"
+          ],
+          "W": [
+            "number",
+            "1.78823529411765"
+          ],
+          "X": [
+            "number",
+            "1.70294117647059"
+          ],
+          "Y": [
+            "number",
+            "1.61764705882353"
+          ],
+          "Z": [
+            "number",
+            "1.53235294117647"
+          ],
+          "AA": [
+            "number",
+            "1.44705882352941"
+          ],
+          "AB": [
+            "number",
+            "1.36176470588235"
+          ],
+          "AC": [
+            "number",
+            "1.27647058823529"
+          ],
+          "AD": [
+            "number",
+            "1.19117647058824"
+          ],
+          "AE": [
+            "number",
+            "1.10588235294118"
+          ],
+          "AF": [
+            "number",
+            "1.02058823529412"
+          ],
+          "AG": [
+            "number",
+            "0.935294117647059"
+          ],
+          "AH": [
+            "number",
+            "0.85"
+          ]
+        }
+      },
+      {
+        "r": 73,
+        "c": {
+          "D": [
+            "text",
+            "LOW"
+          ],
+          "G": [
+            "number",
+            "2.2"
+          ],
+          "H": [
+            "number",
+            "2.2"
+          ],
+          "I": [
+            "number",
+            "2.2"
+          ],
+          "J": [
+            "number",
+            "2.2"
+          ],
+          "K": [
+            "number",
+            "2.2"
+          ],
+          "L": [
+            "number",
+            "2.2"
+          ],
+          "M": [
+            "number",
+            "2.2"
+          ],
+          "N": [
+            "number",
+            "2.2"
+          ],
+          "O": [
+            "number",
+            "2.2"
+          ],
+          "P": [
+            "number",
+            "2.2"
+          ],
+          "Q": [
+            "number",
+            "2.2"
+          ],
+          "R": [
+            "number",
+            "2.1"
+          ],
+          "S": [
+            "number",
+            "2"
+          ],
+          "T": [
+            "number",
+            "1.9"
+          ],
+          "U": [
+            "number",
+            "1.8"
+          ],
+          "V": [
+            "number",
+            "1.7"
+          ],
+          "W": [
+            "number",
+            "1.6"
+          ],
+          "X": [
+            "number",
+            "1.5"
+          ],
+          "Y": [
+            "number",
+            "1.4"
+          ],
+          "Z": [
+            "number",
+            "1.3"
+          ],
+          "AA": [
+            "number",
+            "1.2"
+          ],
+          "AB": [
+            "number",
+            "1.1"
+          ],
+          "AC": [
+            "number",
+            "1"
+          ],
+          "AD": [
+            "number",
+            "0.9"
+          ],
+          "AE": [
+            "number",
+            "0.8"
+          ],
+          "AF": [
+            "number",
+            "0.7"
+          ],
+          "AG": [
+            "number",
+            "0.6"
+          ],
+          "AH": [
+            "number",
+            "0.5"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": "D76",
+    "title": "Capital Cost (INR Billion)",
+    "header": {
+      "G": [
+        "text",
+        "2020"
+      ],
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2024"
+      ],
+      "L": [
+        "text",
+        "2025"
+      ],
+      "M": [
+        "text",
+        "2026"
+      ],
+      "N": [
+        "text",
+        "2030"
+      ],
+      "O": [
+        "text",
+        "2028"
+      ],
+      "P": [
+        "text",
+        "2029"
+      ],
+      "Q": [
+        "text",
+        "2030"
+      ],
+      "R": [
+        "text",
+        "2031"
+      ],
+      "S": [
+        "text",
+        "2035"
+      ],
+      "T": [
+        "text",
+        "2033"
+      ],
+      "U": [
+        "text",
+        "2034"
+      ],
+      "V": [
+        "text",
+        "2035"
+      ],
+      "W": [
+        "text",
+        "2036"
+      ],
+      "X": [
+        "text",
+        "2040"
+      ],
+      "Y": [
+        "text",
+        "2038"
+      ],
+      "Z": [
+        "text",
+        "2039"
+      ],
+      "AA": [
+        "text",
+        "2040"
+      ],
+      "AB": [
+        "text",
+        "2041"
+      ],
+      "AC": [
+        "text",
+        "2045"
+      ],
+      "AD": [
+        "text",
+        "2043"
+      ],
+      "AE": [
+        "text",
+        "2044"
+      ],
+      "AF": [
+        "text",
+        "2045"
+      ],
+      "AG": [
+        "text",
+        "2046"
+      ],
+      "AH": [
+        "text",
+        "2047"
+      ]
+    },
+    "columns": [
+      "D",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z",
+      "AA",
+      "AB",
+      "AC",
+      "AD",
+      "AE",
+      "AF",
+      "AG",
+      "AH"
+    ],
+    "rows": [
+      {
+        "r": 77,
+        "c": {
+          "D": [
+            "text",
+            "HIGH"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ],
+          "U": [
+            "formula",
+            "-"
+          ],
+          "V": [
+            "formula",
+            "-"
+          ],
+          "W": [
+            "formula",
+            "-"
+          ],
+          "X": [
+            "formula",
+            "-"
+          ],
+          "Y": [
+            "formula",
+            "-"
+          ],
+          "Z": [
+            "formula",
+            "-"
+          ],
+          "AA": [
+            "formula",
+            "-"
+          ],
+          "AB": [
+            "formula",
+            "-"
+          ],
+          "AC": [
+            "formula",
+            "-"
+          ],
+          "AD": [
+            "formula",
+            "-"
+          ],
+          "AE": [
+            "formula",
+            "-"
+          ],
+          "AF": [
+            "formula",
+            "-"
+          ],
+          "AG": [
+            "formula",
+            "-"
+          ],
+          "AH": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 78,
+        "c": {
+          "D": [
+            "text",
+            "POINT"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ],
+          "U": [
+            "formula",
+            "-"
+          ],
+          "V": [
+            "formula",
+            "-"
+          ],
+          "W": [
+            "formula",
+            "-"
+          ],
+          "X": [
+            "formula",
+            "-"
+          ],
+          "Y": [
+            "formula",
+            "-"
+          ],
+          "Z": [
+            "formula",
+            "-"
+          ],
+          "AA": [
+            "formula",
+            "-"
+          ],
+          "AB": [
+            "formula",
+            "-"
+          ],
+          "AC": [
+            "formula",
+            "-"
+          ],
+          "AD": [
+            "formula",
+            "-"
+          ],
+          "AE": [
+            "formula",
+            "-"
+          ],
+          "AF": [
+            "formula",
+            "-"
+          ],
+          "AG": [
+            "formula",
+            "-"
+          ],
+          "AH": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 79,
+        "c": {
+          "D": [
+            "text",
+            "LOW"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ],
+          "U": [
+            "formula",
+            "-"
+          ],
+          "V": [
+            "formula",
+            "-"
+          ],
+          "W": [
+            "formula",
+            "-"
+          ],
+          "X": [
+            "formula",
+            "-"
+          ],
+          "Y": [
+            "formula",
+            "-"
+          ],
+          "Z": [
+            "formula",
+            "-"
+          ],
+          "AA": [
+            "formula",
+            "-"
+          ],
+          "AB": [
+            "formula",
+            "-"
+          ],
+          "AC": [
+            "formula",
+            "-"
+          ],
+          "AD": [
+            "formula",
+            "-"
+          ],
+          "AE": [
+            "formula",
+            "-"
+          ],
+          "AF": [
+            "formula",
+            "-"
+          ],
+          "AG": [
+            "formula",
+            "-"
+          ],
+          "AH": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": "D96",
+    "title": "Cumulative capital cost",
+    "header": {
+      "G": [
+        "text",
+        "2020-2022"
+      ],
+      "H": [
+        "text",
+        "2022-27"
+      ],
+      "I": [
+        "text",
+        "2030-32"
+      ],
+      "J": [
+        "text",
+        "2035-37"
+      ],
+      "K": [
+        "text",
+        "2040-42"
+      ],
+      "L": [
+        "text",
+        "2045-47"
+      ]
+    },
+    "columns": [
+      "D",
+      "E",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L"
+    ],
+    "rows": [
+      {
+        "r": 97,
+        "c": {
+          "D": [
+            "text",
+            "HIGH"
+          ],
+          "E": [
+            "text",
+            "INR Billion"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 98,
+        "c": {
+          "D": [
+            "text",
+            "POINT"
+          ],
+          "E": [
+            "text",
+            "INR Billion"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 99,
+        "c": {
+          "D": [
+            "text",
+            "LOW"
+          ],
+          "E": [
+            "text",
+            "INR Billion"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": "D103",
+    "title": "Battery Capital Cost",
+    "header": {
+      "E": [
+        "text",
+        "INR Billion total"
+      ],
+      "G": [
+        "text",
+        "USD Billion/year"
+      ]
+    },
+    "columns": [
+      "D",
+      "E",
+      "G"
+    ],
+    "rows": [
+      {
+        "r": 104,
+        "c": {
+          "D": [
+            "text",
+            "HIGH"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 105,
+        "c": {
+          "D": [
+            "text",
+            "POINT"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 106,
+        "c": {
+          "D": [
+            "text",
+            "LOW"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  }
+]

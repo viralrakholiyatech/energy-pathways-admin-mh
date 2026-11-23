@@ -1,0 +1,2384 @@
+{
+  "sections": [
+    {
+      "id": "va",
+      "tab": "V.a",
+      "sheet": "V.a-KD",
+      "title": "Biomass Based Electricity& Biogas",
+      "tables": [
+        {
+          "title": "Efficiency of Electricity Generation from Solid Bio Feedstock",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "H23"
+                },
+                {
+                  "ref": "I23"
+                },
+                {
+                  "ref": "J23"
+                },
+                {
+                  "ref": "K23"
+                },
+                {
+                  "ref": "L23"
+                },
+                {
+                  "ref": "M23"
+                },
+                {
+                  "ref": "N23"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "H24"
+                },
+                {
+                  "ref": "I24"
+                },
+                {
+                  "ref": "J24"
+                },
+                {
+                  "ref": "K24"
+                },
+                {
+                  "ref": "L24"
+                },
+                {
+                  "ref": "M24"
+                },
+                {
+                  "ref": "N24"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "H25"
+                },
+                {
+                  "ref": "I25"
+                },
+                {
+                  "ref": "J25"
+                },
+                {
+                  "ref": "K25"
+                },
+                {
+                  "ref": "L25"
+                },
+                {
+                  "ref": "M25"
+                },
+                {
+                  "ref": "N25"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "H26"
+                },
+                {
+                  "ref": "I26"
+                },
+                {
+                  "ref": "J26"
+                },
+                {
+                  "ref": "K26"
+                },
+                {
+                  "ref": "L26"
+                },
+                {
+                  "ref": "M26"
+                },
+                {
+                  "ref": "N26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fixed assumptions",
+          "columns": [
+            "Value"
+          ],
+          "firstColumn": "Assumption",
+          "rows": [
+            {
+              "label": "PLF of Biomass-Electricity Power Plants",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "E36"
+                }
+              ]
+            },
+            {
+              "label": "Capacity Factor of a biogas plant",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "E38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Plant life",
+          "columns": [
+            "Value"
+          ],
+          "firstColumn": "Assumption",
+          "rows": [
+            {
+              "label": "Useful Life Cycle of Biomass-Electricity Power Plant",
+              "unit": "years",
+              "cells": [
+                {
+                  "ref": "E37"
+                }
+              ]
+            },
+            {
+              "label": "Asset Life of Biogas Plants",
+              "unit": "years",
+              "cells": [
+                {
+                  "ref": "E39"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fuel Cost of a Biomass to Electricity power plant",
+          "columns": [
+            "2021"
+          ],
+          "firstColumn": "Estimate",
+          "rows": [
+            {
+              "label": "Low estimate",
+              "unit": "INR Billion/TWh",
+              "cells": [
+                {
+                  "ref": "H62"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Net Electricity Units Generated from Biomass Plants",
+          "columns": [
+            "2021",
+            "2025"
+          ],
+          "firstColumn": "Plant type",
+          "rows": [
+            {
+              "label": "Biomass plants",
+              "unit": "TWh",
+              "cells": [
+                {
+                  "ref": "H105"
+                },
+                {
+                  "ref": "I105"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Capacity Factor of Biogas Plants",
+          "columns": [
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Plant type",
+          "rows": [
+            {
+              "label": "Biogas plants",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "I128"
+                },
+                {
+                  "ref": "J128"
+                },
+                {
+                  "ref": "K128"
+                },
+                {
+                  "ref": "L128"
+                },
+                {
+                  "ref": "M128"
+                },
+                {
+                  "ref": "N128"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vb",
+      "tab": "V.b",
+      "sheet": "V.b-PB",
+      "title": "First & Second Generation Bio Fuels",
+      "tables": [
+        {
+          "title": "Bio Energy Feedstock Cultivation Yield Scenarios ? Trajectory 1",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Feedstock",
+          "rows": [
+            {
+              "label": "Crop yield for Sugarbeet",
+              "unit": "As entered",
+              "cells": [
+                null,
+                {
+                  "ref": "G55"
+                },
+                {
+                  "ref": "H55"
+                },
+                {
+                  "ref": "I55"
+                },
+                {
+                  "ref": "J55"
+                },
+                {
+                  "ref": "K55"
+                },
+                {
+                  "ref": "L55"
+                },
+                {
+                  "ref": "M55"
+                }
+              ]
+            },
+            {
+              "label": "Crop yield for Sweet Sorghum",
+              "unit": "As entered",
+              "cells": [
+                null,
+                {
+                  "ref": "G56"
+                },
+                {
+                  "ref": "H56"
+                },
+                {
+                  "ref": "I56"
+                },
+                {
+                  "ref": "J56"
+                },
+                {
+                  "ref": "K56"
+                },
+                {
+                  "ref": "L56"
+                },
+                {
+                  "ref": "M56"
+                }
+              ]
+            },
+            {
+              "label": "Crop yield for Biomass from Wastelands",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "F58"
+                },
+                {
+                  "ref": "G58"
+                },
+                {
+                  "ref": "H58"
+                },
+                {
+                  "ref": "I58"
+                },
+                {
+                  "ref": "J58"
+                },
+                {
+                  "ref": "K58"
+                },
+                {
+                  "ref": "L58"
+                },
+                {
+                  "ref": "M58"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bio Energy Feedstock Cultivation Yield Scenarios ? Trajectory 2",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Feedstock",
+          "rows": [
+            {
+              "label": "Crop yield for Sugarbeet",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "G60"
+                },
+                {
+                  "ref": "H60"
+                },
+                {
+                  "ref": "I60"
+                },
+                {
+                  "ref": "J60"
+                },
+                {
+                  "ref": "K60"
+                },
+                {
+                  "ref": "L60"
+                },
+                {
+                  "ref": "M60"
+                }
+              ]
+            },
+            {
+              "label": "Crop yield for Sweet Sorghum",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "G61"
+                },
+                {
+                  "ref": "H61"
+                },
+                {
+                  "ref": "I61"
+                },
+                {
+                  "ref": "J61"
+                },
+                {
+                  "ref": "K61"
+                },
+                {
+                  "ref": "L61"
+                },
+                {
+                  "ref": "M61"
+                }
+              ]
+            },
+            {
+              "label": "Oil yield for Jatropha, Pangomia",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "G62"
+                },
+                {
+                  "ref": "H62"
+                },
+                {
+                  "ref": "I62"
+                },
+                {
+                  "ref": "J62"
+                },
+                {
+                  "ref": "K62"
+                },
+                null,
+                null
+              ]
+            },
+            {
+              "label": "Crop yield for Biomass from Wastelands",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "G63"
+                },
+                {
+                  "ref": "H63"
+                },
+                {
+                  "ref": "I63"
+                },
+                {
+                  "ref": "J63"
+                },
+                {
+                  "ref": "K63"
+                },
+                {
+                  "ref": "L63"
+                },
+                {
+                  "ref": "M63"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bio Energy Feedstock Cultivation Yield Scenarios ? Trajectory 3",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Feedstock",
+          "rows": [
+            {
+              "label": "Crop yield for Sugarbeet",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "G65"
+                },
+                {
+                  "ref": "H65"
+                },
+                {
+                  "ref": "I65"
+                },
+                {
+                  "ref": "J65"
+                },
+                {
+                  "ref": "K65"
+                },
+                {
+                  "ref": "L65"
+                },
+                {
+                  "ref": "M65"
+                }
+              ]
+            },
+            {
+              "label": "Crop yield for Sweet Sorghum",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "G66"
+                },
+                {
+                  "ref": "H66"
+                },
+                {
+                  "ref": "I66"
+                },
+                {
+                  "ref": "J66"
+                },
+                {
+                  "ref": "K66"
+                },
+                {
+                  "ref": "L66"
+                },
+                {
+                  "ref": "M66"
+                }
+              ]
+            },
+            {
+              "label": "Oil yield for Jatropha, Pangomia",
+              "unit": "As entered",
+              "cells": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "ref": "L67"
+                },
+                {
+                  "ref": "M67"
+                }
+              ]
+            },
+            {
+              "label": "Crop yield for Biomass from Wastelands",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "G68"
+                },
+                {
+                  "ref": "H68"
+                },
+                {
+                  "ref": "I68"
+                },
+                {
+                  "ref": "J68"
+                },
+                {
+                  "ref": "K68"
+                },
+                {
+                  "ref": "L68"
+                },
+                {
+                  "ref": "M68"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bio Energy Feedstock Cultivation Yield Scenarios ? Trajectory 4",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Feedstock",
+          "rows": [
+            {
+              "label": "Crop yield for Sugarbeet",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "G70"
+                },
+                {
+                  "ref": "H70"
+                },
+                {
+                  "ref": "I70"
+                },
+                {
+                  "ref": "J70"
+                },
+                {
+                  "ref": "K70"
+                },
+                {
+                  "ref": "L70"
+                },
+                {
+                  "ref": "M70"
+                }
+              ]
+            },
+            {
+              "label": "Crop yield for Sweet Sorghum",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "G71"
+                },
+                {
+                  "ref": "H71"
+                },
+                {
+                  "ref": "I71"
+                },
+                {
+                  "ref": "J71"
+                },
+                {
+                  "ref": "K71"
+                },
+                {
+                  "ref": "L71"
+                },
+                {
+                  "ref": "M71"
+                }
+              ]
+            },
+            {
+              "label": "Oil yield for Jatropha, Pangomia",
+              "unit": "As entered",
+              "cells": [
+                null,
+                null,
+                null,
+                {
+                  "ref": "J72"
+                },
+                {
+                  "ref": "K72"
+                },
+                null,
+                null
+              ]
+            },
+            {
+              "label": "Crop yield for Biomass from Wastelands",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "G73"
+                },
+                {
+                  "ref": "H73"
+                },
+                {
+                  "ref": "I73"
+                },
+                {
+                  "ref": "J73"
+                },
+                {
+                  "ref": "K73"
+                },
+                {
+                  "ref": "L73"
+                },
+                {
+                  "ref": "M73"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Production Scenarios for Non Sugar Bio Energy Feedstock",
+          "columns": [
+            "2010",
+            "2021"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 2",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "F86"
+                },
+                {
+                  "ref": "G86"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "As entered",
+              "cells": [
+                null,
+                {
+                  "ref": "G87"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "As entered",
+              "cells": [
+                null,
+                {
+                  "ref": "G88"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fraction Sugarcane feedstock Utilized for Sugar Production",
+          "columns": [
+            "2010-2015",
+            "2015-2055"
+          ],
+          "firstColumn": "Level",
+          "rows": [
+            {
+              "label": "Level 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D114"
+                },
+                {
+                  "ref": "E114"
+                }
+              ]
+            },
+            {
+              "label": "Level 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D115"
+                },
+                {
+                  "ref": "E115"
+                }
+              ]
+            },
+            {
+              "label": "Level 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D116"
+                },
+                {
+                  "ref": "E116"
+                }
+              ]
+            },
+            {
+              "label": "Level 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D117"
+                },
+                {
+                  "ref": "E117"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sugar yield from Sugarcane",
+          "columns": [
+            "2010-2015",
+            "2015-2055"
+          ],
+          "firstColumn": "Level",
+          "rows": [
+            {
+              "label": "Level 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "H114"
+                },
+                {
+                  "ref": "I114"
+                }
+              ]
+            },
+            {
+              "label": "Level 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "H115"
+                },
+                {
+                  "ref": "I115"
+                }
+              ]
+            },
+            {
+              "label": "Level 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "H116"
+                },
+                {
+                  "ref": "I116"
+                }
+              ]
+            },
+            {
+              "label": "Level 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "H117"
+                },
+                {
+                  "ref": "I117"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Population of State",
+          "columns": [
+            "2010"
+          ],
+          "firstColumn": "Assumption",
+          "rows": [
+            {
+              "label": "Population of State",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "F124"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Annual Per Capita Consumption of Sugar",
+          "columns": [
+            "2010",
+            "2021"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "F130"
+                },
+                {
+                  "ref": "G130"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "F131"
+                },
+                {
+                  "ref": "G131"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "F132"
+                },
+                {
+                  "ref": "G132"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "F133"
+                },
+                {
+                  "ref": "G133"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Annual Per Capita Consumption of Sugar ? growth assumptions",
+          "columns": [
+            "Rate (decimal)"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "E130"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "E132"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "E133"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chosen Trajectory for Capita Sugar Consumption in State",
+          "columns": [
+            "2021"
+          ],
+          "firstColumn": "Assumption",
+          "rows": [
+            {
+              "label": "Chosen trajectory",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "G134"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Annual Sugar Exports",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "F140"
+                },
+                {
+                  "ref": "G140"
+                },
+                {
+                  "ref": "H140"
+                },
+                {
+                  "ref": "I140"
+                },
+                {
+                  "ref": "J140"
+                },
+                {
+                  "ref": "K140"
+                },
+                {
+                  "ref": "L140"
+                },
+                {
+                  "ref": "M140"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "F141"
+                },
+                {
+                  "ref": "G141"
+                },
+                {
+                  "ref": "H141"
+                },
+                {
+                  "ref": "I141"
+                },
+                {
+                  "ref": "J141"
+                },
+                {
+                  "ref": "K141"
+                },
+                {
+                  "ref": "L141"
+                },
+                {
+                  "ref": "M141"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "F142"
+                },
+                {
+                  "ref": "G142"
+                },
+                {
+                  "ref": "H142"
+                },
+                {
+                  "ref": "I142"
+                },
+                {
+                  "ref": "J142"
+                },
+                {
+                  "ref": "K142"
+                },
+                {
+                  "ref": "L142"
+                },
+                {
+                  "ref": "M142"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "F143"
+                },
+                {
+                  "ref": "G143"
+                },
+                {
+                  "ref": "H143"
+                },
+                {
+                  "ref": "I143"
+                },
+                {
+                  "ref": "J143"
+                },
+                {
+                  "ref": "K143"
+                },
+                {
+                  "ref": "L143"
+                },
+                {
+                  "ref": "M143"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sugar (Minimum Closing Stock Required)",
+          "columns": [
+            "2010",
+            "2021"
+          ],
+          "firstColumn": "Assumption",
+          "rows": [
+            {
+              "label": "Minimum closing stock",
+              "unit": "As entered",
+              "cells": [
+                {
+                  "ref": "F148"
+                },
+                {
+                  "ref": "G148"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fixed Assumptions for Sugarcane Molasse",
+          "columns": [
+            "Value"
+          ],
+          "firstColumn": "Assumption",
+          "rows": [
+            {
+              "label": "Molasses yield from Sugarcane",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "E154"
+                }
+              ]
+            },
+            {
+              "label": "Sugarcane Molasses available for Bioethanol Conversion",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "E155"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Utilization factor for Bioethanol conversion",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F160"
+                },
+                {
+                  "ref": "G160"
+                },
+                {
+                  "ref": "H160"
+                },
+                {
+                  "ref": "I160"
+                },
+                {
+                  "ref": "J160"
+                },
+                {
+                  "ref": "K160"
+                },
+                {
+                  "ref": "L160"
+                },
+                {
+                  "ref": "M160"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F161"
+                },
+                {
+                  "ref": "G161"
+                },
+                {
+                  "ref": "H161"
+                },
+                {
+                  "ref": "I161"
+                },
+                {
+                  "ref": "J161"
+                },
+                {
+                  "ref": "K161"
+                },
+                {
+                  "ref": "L161"
+                },
+                {
+                  "ref": "M161"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F162"
+                },
+                {
+                  "ref": "G162"
+                },
+                {
+                  "ref": "H162"
+                },
+                {
+                  "ref": "I162"
+                },
+                {
+                  "ref": "J162"
+                },
+                {
+                  "ref": "K162"
+                },
+                {
+                  "ref": "L162"
+                },
+                {
+                  "ref": "M162"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F163"
+                },
+                {
+                  "ref": "G163"
+                },
+                {
+                  "ref": "H163"
+                },
+                {
+                  "ref": "I163"
+                },
+                {
+                  "ref": "J163"
+                },
+                {
+                  "ref": "K163"
+                },
+                {
+                  "ref": "L163"
+                },
+                {
+                  "ref": "M163"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fraction of Sugarbeet Molasse utilized for Bioethanol conversion",
+          "columns": [
+            "2010"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F190"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F191"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F192"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F193"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Surplus Corn Residue available as a bio energy feedstock",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F212"
+                },
+                {
+                  "ref": "G212"
+                },
+                {
+                  "ref": "H212"
+                },
+                {
+                  "ref": "I212"
+                },
+                {
+                  "ref": "J212"
+                },
+                {
+                  "ref": "K212"
+                },
+                {
+                  "ref": "L212"
+                },
+                {
+                  "ref": "M212"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F213"
+                },
+                {
+                  "ref": "G213"
+                },
+                {
+                  "ref": "H213"
+                },
+                {
+                  "ref": "I213"
+                },
+                {
+                  "ref": "J213"
+                },
+                {
+                  "ref": "K213"
+                },
+                {
+                  "ref": "L213"
+                },
+                {
+                  "ref": "M213"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F214"
+                },
+                {
+                  "ref": "G214"
+                },
+                {
+                  "ref": "H214"
+                },
+                {
+                  "ref": "I214"
+                },
+                {
+                  "ref": "J214"
+                },
+                {
+                  "ref": "K214"
+                },
+                {
+                  "ref": "L214"
+                },
+                {
+                  "ref": "M214"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F215"
+                },
+                {
+                  "ref": "G215"
+                },
+                {
+                  "ref": "H215"
+                },
+                {
+                  "ref": "I215"
+                },
+                {
+                  "ref": "J215"
+                },
+                {
+                  "ref": "K215"
+                },
+                {
+                  "ref": "L215"
+                },
+                {
+                  "ref": "M215"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Surplus Baggase available as a bioenergy Feedstock",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F229"
+                },
+                {
+                  "ref": "G229"
+                },
+                {
+                  "ref": "H229"
+                },
+                {
+                  "ref": "I229"
+                },
+                {
+                  "ref": "J229"
+                },
+                {
+                  "ref": "K229"
+                },
+                {
+                  "ref": "L229"
+                },
+                {
+                  "ref": "M229"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F230"
+                },
+                {
+                  "ref": "G230"
+                },
+                {
+                  "ref": "H230"
+                },
+                {
+                  "ref": "I230"
+                },
+                {
+                  "ref": "J230"
+                },
+                {
+                  "ref": "K230"
+                },
+                {
+                  "ref": "L230"
+                },
+                {
+                  "ref": "M230"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F231"
+                },
+                {
+                  "ref": "G231"
+                },
+                {
+                  "ref": "H231"
+                },
+                {
+                  "ref": "I231"
+                },
+                {
+                  "ref": "J231"
+                },
+                {
+                  "ref": "K231"
+                },
+                {
+                  "ref": "L231"
+                },
+                {
+                  "ref": "M231"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F232"
+                },
+                {
+                  "ref": "G232"
+                },
+                {
+                  "ref": "H232"
+                },
+                {
+                  "ref": "I232"
+                },
+                {
+                  "ref": "J232"
+                },
+                {
+                  "ref": "K232"
+                },
+                {
+                  "ref": "L232"
+                },
+                {
+                  "ref": "M232"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vc",
+      "tab": "V.c",
+      "sheet": "V.c-PB",
+      "title": "Advanced Bio Fuels",
+      "tables": [
+        {
+          "title": "Area of sea farmed",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "'000 ha",
+              "cells": [
+                {
+                  "ref": "G15"
+                },
+                {
+                  "ref": "H15"
+                },
+                {
+                  "ref": "I15"
+                },
+                {
+                  "ref": "J15"
+                },
+                {
+                  "ref": "K15"
+                },
+                {
+                  "ref": "L15"
+                },
+                {
+                  "ref": "M15"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "'000 ha",
+              "cells": [
+                {
+                  "ref": "G16"
+                },
+                {
+                  "ref": "H16"
+                },
+                {
+                  "ref": "I16"
+                },
+                {
+                  "ref": "J16"
+                },
+                {
+                  "ref": "K16"
+                },
+                {
+                  "ref": "L16"
+                },
+                {
+                  "ref": "M16"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "'000 ha",
+              "cells": [
+                {
+                  "ref": "G17"
+                },
+                {
+                  "ref": "H17"
+                },
+                {
+                  "ref": "I17"
+                },
+                {
+                  "ref": "J17"
+                },
+                {
+                  "ref": "K17"
+                },
+                {
+                  "ref": "L17"
+                },
+                {
+                  "ref": "M17"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "'000 ha",
+              "cells": [
+                {
+                  "ref": "G18"
+                },
+                {
+                  "ref": "H18"
+                },
+                {
+                  "ref": "I18"
+                },
+                {
+                  "ref": "J18"
+                },
+                {
+                  "ref": "K18"
+                },
+                {
+                  "ref": "L18"
+                },
+                {
+                  "ref": "M18"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Area on Land allocated for micro-algae",
+          "columns": [
+            "2021",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "'000 ha",
+              "cells": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                {
+                  "ref": "M24"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "'000 ha",
+              "cells": [
+                {
+                  "ref": "G25"
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                  "ref": "M25"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "'000 ha",
+              "cells": [
+                {
+                  "ref": "G26"
+                },
+                {
+                  "ref": "I26"
+                },
+                {
+                  "ref": "J26"
+                },
+                {
+                  "ref": "K26"
+                },
+                {
+                  "ref": "L26"
+                },
+                {
+                  "ref": "M26"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "'000 ha",
+              "cells": [
+                {
+                  "ref": "G27"
+                },
+                {
+                  "ref": "I27"
+                },
+                {
+                  "ref": "J27"
+                },
+                {
+                  "ref": "K27"
+                },
+                {
+                  "ref": "L27"
+                },
+                {
+                  "ref": "M27"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fuel Conversion Efficiency ? Off Shore Macro Algae",
+          "columns": [
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D44"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D45"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D46"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D47"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lipid Content ? Onshore Micro Algae",
+          "columns": [
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D70"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D71"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D72"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D73"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Annual Liquid Fuel Yield from Lipid",
+          "columns": [
+            "Value"
+          ],
+          "firstColumn": "Assumption",
+          "rows": [
+            {
+              "label": "Liquid fuel yield",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "E89"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Combustion emissions ? CO2 baseline",
+          "columns": [
+            "2010"
+          ],
+          "firstColumn": "GHG",
+          "rows": [
+            {
+              "label": "CO2",
+              "unit": "Mt CO2e",
+              "cells": [
+                {
+                  "ref": "F135"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vd",
+      "tab": "V.d",
+      "sheet": "V.d-PB",
+      "title": "Bio-feedstock prodctn & bio-conversion",
+      "tables": [
+        {
+          "title": "Total Non Fodder Agriculture Residue",
+          "columns": [
+            "2015"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "MT/year",
+              "cells": [
+                {
+                  "ref": "G17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Total Non Fodder Agriculture Residue ? growth assumptions",
+          "columns": [
+            "Rate (decimal)"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "E17"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "E18"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "E19"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "E20"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Total Non Fodder Forestry Arisings",
+          "columns": [
+            "2015"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "MT/year",
+              "cells": [
+                {
+                  "ref": "G26"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Total Non Fodder Forestry Arisings ? growth assumptions",
+          "columns": [
+            "Rate (decimal)"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "E26"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "E27"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "E28"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "E29"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "End Usage Split for Solid Bio Energy Feedstock in 2050",
+          "columns": [
+            "For Cooking",
+            "For Electricity",
+            "For Liquid Fuel Usage"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D36"
+                },
+                {
+                  "ref": "E36"
+                },
+                {
+                  "ref": "F36"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D37"
+                },
+                {
+                  "ref": "E37"
+                },
+                {
+                  "ref": "F37"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D38"
+                },
+                {
+                  "ref": "E38"
+                },
+                {
+                  "ref": "F38"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "D39"
+                },
+                {
+                  "ref": "E39"
+                },
+                {
+                  "ref": "F39"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trajectory for Bio Gas Projections",
+          "columns": [
+            "2021",
+            "2025"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "TWh",
+              "cells": [
+                {
+                  "ref": "G46"
+                },
+                {
+                  "ref": "H46"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "TWh",
+              "cells": [
+                {
+                  "ref": "G47"
+                },
+                {
+                  "ref": "H47"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "TWh",
+              "cells": [
+                {
+                  "ref": "G48"
+                },
+                {
+                  "ref": "H48"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "TWh",
+              "cells": [
+                {
+                  "ref": "G49"
+                },
+                {
+                  "ref": "H49"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trajectory for Bio Gas Projections ? growth assumptions",
+          "columns": [
+            "Rate (decimal)"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "F46"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "F48"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "F49"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "End Use Specific Split for Bio Energy",
+          "columns": [
+            "2015"
+          ],
+          "firstColumn": "Type",
+          "rows": [
+            {
+              "label": "Solid Fuel for Cooking",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G64"
+                }
+              ]
+            },
+            {
+              "label": "Bio Energy Feedstock for Electricity",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G65"
+                }
+              ]
+            },
+            {
+              "label": "Bio Feedstock for Liquid Fuels for Transport",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G66"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "End Use Specific Split for Bio Energy ? Delta",
+          "columns": [
+            "Delta (decimal/year)"
+          ],
+          "firstColumn": "Type",
+          "rows": [
+            {
+              "label": "Solid Fuel for Cooking",
+              "unit": "Decimal/year",
+              "cells": [
+                {
+                  "ref": "E64"
+                }
+              ]
+            },
+            {
+              "label": "Bio Energy Feedstock for Electricity",
+              "unit": "Decimal/year",
+              "cells": [
+                {
+                  "ref": "E65"
+                }
+              ]
+            },
+            {
+              "label": "Bio Feedstock for Liquid Fuels for Transport",
+              "unit": "Decimal/year",
+              "cells": [
+                {
+                  "ref": "E66"
+                }
+              ]
+            },
+            {
+              "label": "Others",
+              "unit": "Decimal/year",
+              "cells": [
+                {
+                  "ref": "E67"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ve",
+      "tab": "V.e",
+      "sheet": "V.e-PB",
+      "title": "Fuel For Cooking",
+      "tables": []
+    }
+  ]
+}

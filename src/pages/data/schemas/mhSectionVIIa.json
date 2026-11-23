@@ -1,0 +1,2525 @@
+[
+  {
+    "start": 11,
+    "title": "Trajectory assumptions",
+    "rows": []
+  },
+  {
+    "start": "C13",
+    "title": "Imports",
+    "unit": "GW",
+    "header": {
+      "C": [
+        "text",
+        "Trajectory"
+      ],
+      "D": [
+        "text",
+        "Description"
+      ],
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "C",
+      "D",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 16,
+        "c": {
+          "C": [
+            "text",
+            "1"
+          ],
+          "D": [
+            "text",
+            "Imported Electricity"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "number",
+            "2.25"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 17,
+        "c": {
+          "C": [
+            "text",
+            "2"
+          ],
+          "D": [
+            "text",
+            "Imported Electricity"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "number",
+            "2.25"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 18,
+        "c": {
+          "C": [
+            "text",
+            "3"
+          ],
+          "D": [
+            "text",
+            "Imported Electricity"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "number",
+            "2.25"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 19,
+        "c": {
+          "C": [
+            "text",
+            "4"
+          ],
+          "D": [
+            "text",
+            "Imported Electricity"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "number",
+            "2.25"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": "W13",
+    "title": "Capacity in GW",
+    "unit": "Source: CEA",
+    "header": {
+      "X": [
+        "text",
+        "2030"
+      ],
+      "Y": [
+        "text",
+        "2035"
+      ]
+    },
+    "columns": [
+      "W",
+      "X",
+      "Y"
+    ],
+    "rows": [
+      {
+        "r": 16,
+        "c": {
+          "W": [
+            "text",
+            "Imports"
+          ],
+          "X": [
+            "number",
+            "7.5"
+          ],
+          "Y": [
+            "number",
+            "15"
+          ]
+        }
+      },
+      {
+        "r": 17,
+        "c": {
+          "W": [
+            "text",
+            "Exports"
+          ],
+          "X": [
+            "number",
+            "6.8"
+          ],
+          "Y": [
+            "number",
+            "10.9"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": "C22",
+    "title": "Exports",
+    "unit": "GW",
+    "header": {
+      "C": [
+        "text",
+        "Trajectory"
+      ],
+      "D": [
+        "text",
+        "Description"
+      ],
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "C",
+      "D",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 25,
+        "c": {
+          "C": [
+            "text",
+            "1"
+          ],
+          "D": [
+            "text",
+            "Exported Electricity"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "number",
+            "2.363"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 26,
+        "c": {
+          "C": [
+            "text",
+            "2"
+          ],
+          "D": [
+            "text",
+            "Exported Electricity"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "number",
+            "2.363"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 27,
+        "c": {
+          "C": [
+            "text",
+            "3"
+          ],
+          "D": [
+            "text",
+            "Exported Electricity"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "number",
+            "2.363"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 28,
+        "c": {
+          "C": [
+            "text",
+            "4"
+          ],
+          "D": [
+            "text",
+            "Exported Electricity"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "number",
+            "2.363"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 34,
+    "title": "Fixed Assumptions",
+    "rows": []
+  },
+  {
+    "start": "C36",
+    "title": "Plant Load Factor",
+    "unit": "%",
+    "header": {
+      "C": [
+        "text",
+        "Fuel"
+      ],
+      "D": [
+        "text",
+        "Description"
+      ],
+      "E": [
+        "text",
+        "Notes"
+      ],
+      "F": [
+        "text",
+        "2007"
+      ],
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "C",
+      "D",
+      "E",
+      "F",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 39,
+        "c": {
+          "C": [
+            "text",
+            "R.02"
+          ],
+          "D": [
+            "text",
+            "Import PLF"
+          ],
+          "F": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "percent",
+            "39.57"
+          ],
+          "I": [
+            "percent",
+            "39.57"
+          ],
+          "J": [
+            "percent",
+            "39.57"
+          ],
+          "K": [
+            "percent",
+            "39.57"
+          ],
+          "L": [
+            "percent",
+            "39.57"
+          ],
+          "M": [
+            "percent",
+            "39.57"
+          ],
+          "N": [
+            "percent",
+            "39.57"
+          ],
+          "O": [
+            "percent",
+            "39.57"
+          ],
+          "P": [
+            "percent",
+            "39.57"
+          ],
+          "Q": [
+            "percent",
+            "39.57"
+          ],
+          "R": [
+            "percent",
+            "39.57"
+          ],
+          "S": [
+            "percent",
+            "39.57"
+          ],
+          "T": [
+            "percent",
+            "39.57"
+          ]
+        }
+      },
+      {
+        "r": 40,
+        "c": {
+          "D": [
+            "text",
+            "Export PLF"
+          ],
+          "H": [
+            "percent",
+            "56.5"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "percent",
+            "45"
+          ],
+          "K": [
+            "percent",
+            "45"
+          ],
+          "L": [
+            "percent",
+            "45"
+          ],
+          "M": [
+            "percent",
+            "45"
+          ],
+          "N": [
+            "percent",
+            "45"
+          ],
+          "O": [
+            "percent",
+            "45"
+          ],
+          "P": [
+            "percent",
+            "45"
+          ],
+          "Q": [
+            "percent",
+            "45"
+          ],
+          "R": [
+            "percent",
+            "45"
+          ],
+          "S": [
+            "percent",
+            "45"
+          ],
+          "T": [
+            "percent",
+            "45"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 42,
+    "title": "Costs Assumptions",
+    "rows": []
+  },
+  {
+    "start": "C45",
+    "title": "Levelized cost of Importing  Electricity",
+    "unit": "INR Cr/TWh",
+    "header": {
+      "E": [
+        "text",
+        "Delta"
+      ],
+      "F": [
+        "text",
+        "2007"
+      ],
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2026"
+      ],
+      "K": [
+        "text",
+        "2031"
+      ],
+      "L": [
+        "text",
+        "2036"
+      ],
+      "M": [
+        "text",
+        "2041"
+      ],
+      "N": [
+        "text",
+        "2046"
+      ],
+      "O": [
+        "text",
+        "2051"
+      ]
+    },
+    "columns": [
+      "C",
+      "E",
+      "F",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ],
+    "rows": [
+      {
+        "r": 47,
+        "c": {
+          "C": [
+            "text",
+            "High estimate"
+          ],
+          "F": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 48,
+        "c": {
+          "C": [
+            "text",
+            "Point estimate"
+          ],
+          "F": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 49,
+        "c": {
+          "C": [
+            "text",
+            "Low estimate"
+          ],
+          "F": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": "C51",
+    "title": "Levelized cost of exporting Electricity",
+    "unit": "INR Cr/TWh",
+    "header": {
+      "E": [
+        "text",
+        "Delta"
+      ],
+      "F": [
+        "text",
+        "2007"
+      ],
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2026"
+      ],
+      "K": [
+        "text",
+        "2031"
+      ],
+      "L": [
+        "text",
+        "2036"
+      ],
+      "M": [
+        "text",
+        "2041"
+      ],
+      "N": [
+        "text",
+        "2046"
+      ],
+      "O": [
+        "text",
+        "2051"
+      ]
+    },
+    "columns": [
+      "C",
+      "E",
+      "F",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ],
+    "rows": [
+      {
+        "r": 53,
+        "c": {
+          "C": [
+            "text",
+            "High estimate"
+          ],
+          "F": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 54,
+        "c": {
+          "C": [
+            "text",
+            "Point estimate"
+          ],
+          "F": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 55,
+        "c": {
+          "C": [
+            "text",
+            "Low estimate"
+          ],
+          "F": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": "B59",
+    "title": "Calculations",
+    "unit": "",
+    "header": {
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "B",
+      "C",
+      "E",
+      "F",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 62,
+        "c": {
+          "B": [
+            "text",
+            "1"
+          ],
+          "C": [
+            "text",
+            "IMPORTED ELECTRICITY"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "F": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 63,
+        "c": {
+          "B": [
+            "text",
+            "2"
+          ],
+          "C": [
+            "text",
+            "Exported Electricity"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 65,
+    "title": "Costs Calculations",
+    "rows": []
+  },
+  {
+    "start": "B66",
+    "title": "Electricity Imports",
+    "unit": "",
+    "header": {
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "C",
+      "E",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 67,
+        "c": {
+          "C": [
+            "text",
+            "High Costs"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 68,
+        "c": {
+          "C": [
+            "text",
+            "Point Costs"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 69,
+        "c": {
+          "C": [
+            "text",
+            "Low Costs"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": "B71",
+    "title": "Electricity Exports",
+    "unit": "",
+    "header": {
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "C",
+      "E",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 72,
+        "c": {
+          "C": [
+            "text",
+            "High Costs"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 73,
+        "c": {
+          "C": [
+            "text",
+            "Point Costs"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 74,
+        "c": {
+          "C": [
+            "text",
+            "Low Costs"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 84,
+    "title": "Outputs",
+    "rows": []
+  },
+  {
+    "start": "C86",
+    "title": "Energy produced and required",
+    "unit": "TWh",
+    "header": {
+      "C": [
+        "text",
+        "Vector"
+      ],
+      "D": [
+        "text",
+        "Name"
+      ],
+      "E": [
+        "text",
+        "Notes"
+      ],
+      "H": [
+        "text",
+        "Base Year"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "C",
+      "D",
+      "E",
+      "F",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 89,
+        "c": {
+          "C": [
+            "text",
+            "V.02"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "F": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 90,
+        "c": {
+          "C": [
+            "text",
+            "Y.02"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "F": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 91,
+        "c": {
+          "C": [
+            "text",
+            "Total"
+          ],
+          "F": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 104,
+    "title": "Costs",
+    "rows": []
+  },
+  {
+    "start": "C106",
+    "title": "Costs of this physical change-Electricity Imports",
+    "unit": "INR Cr",
+    "header": {
+      "C": [
+        "text",
+        "Vector"
+      ],
+      "D": [
+        "text",
+        "Name"
+      ],
+      "E": [
+        "text",
+        "Notes"
+      ],
+      "H": [
+        "text",
+        "Base Year"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2030"
+      ],
+      "K": [
+        "text",
+        "2035"
+      ],
+      "L": [
+        "text",
+        "2040"
+      ],
+      "M": [
+        "text",
+        "2045"
+      ],
+      "N": [
+        "text",
+        "2047"
+      ],
+      "O": [
+        "text",
+        "Target Year"
+      ]
+    },
+    "columns": [
+      "C",
+      "D",
+      "E",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ],
+    "rows": [
+      {
+        "r": 109,
+        "c": {
+          "C": [
+            "text",
+            "C1.high"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 110,
+        "c": {
+          "C": [
+            "text",
+            "C1.point"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 111,
+        "c": {
+          "C": [
+            "text",
+            "C1.low"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 112,
+        "c": {
+          "C": [
+            "text",
+            "C2.Point"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 113,
+        "c": {
+          "C": [
+            "text",
+            "C1.High"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 114,
+        "c": {
+          "C": [
+            "text",
+            "C2.High"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  }
+]

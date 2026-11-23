@@ -1,0 +1,2638 @@
+[
+  {
+    "start": 10,
+    "title": "Trajectory assumptions",
+    "rows": []
+  },
+  {
+    "start": 12,
+    "title": "Area of sea farmed",
+    "unit": "ha",
+    "header": {
+      "C": [
+        "text",
+        "Trajectory"
+      ],
+      "D": [
+        "text",
+        "Description"
+      ],
+      "E": [
+        "text",
+        "Notes"
+      ],
+      "G": [
+        "text",
+        "CAGR"
+      ],
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "C",
+      "D",
+      "E",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 15,
+        "c": {
+          "C": [
+            "text",
+            "1"
+          ],
+          "G": [
+            "percent",
+            "20.3682346262738"
+          ],
+          "H": [
+            "number",
+            "0"
+          ],
+          "I": [
+            "number",
+            "0"
+          ],
+          "J": [
+            "number",
+            "0"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "number",
+            "0.00237272154794188"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 16,
+        "c": {
+          "C": [
+            "text",
+            "2"
+          ],
+          "G": [
+            "percent",
+            "39.0706020577084"
+          ],
+          "H": [
+            "number",
+            "0"
+          ],
+          "I": [
+            "number",
+            "0"
+          ],
+          "J": [
+            "number",
+            "0"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "number",
+            "0.0478251687007036"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 17,
+        "c": {
+          "C": [
+            "text",
+            "3"
+          ],
+          "G": [
+            "percent",
+            "25.714982443421"
+          ],
+          "H": [
+            "number",
+            "0"
+          ],
+          "I": [
+            "number",
+            "0"
+          ],
+          "J": [
+            "number",
+            "0"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "number",
+            "0.72706967433362"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 18,
+        "c": {
+          "C": [
+            "text",
+            "4"
+          ],
+          "G": [
+            "percent",
+            "25.7246741701111"
+          ],
+          "H": [
+            "number",
+            "0"
+          ],
+          "I": [
+            "number",
+            "0"
+          ],
+          "J": [
+            "number",
+            "0"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "number",
+            "2.28798149265824"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 21,
+    "title": "Area on Land allocated for micro-algae",
+    "unit": "ha",
+    "header": {
+      "C": [
+        "text",
+        "Trajectory"
+      ],
+      "D": [
+        "text",
+        "Description"
+      ],
+      "E": [
+        "text",
+        "Notes"
+      ],
+      "G": [
+        "text",
+        "CAGR"
+      ],
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "C",
+      "D",
+      "E",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 24,
+        "c": {
+          "C": [
+            "text",
+            "1"
+          ],
+          "G": [
+            "percent",
+            "0"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "number",
+            "0"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "number",
+            "0.00549115558237979"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 25,
+        "c": {
+          "C": [
+            "text",
+            "2"
+          ],
+          "G": [
+            "percent",
+            "0"
+          ],
+          "H": [
+            "number",
+            "0"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "number",
+            "0.0920912550794944"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 26,
+        "c": {
+          "C": [
+            "text",
+            "3"
+          ],
+          "G": [
+            "percent",
+            "0"
+          ],
+          "H": [
+            "number",
+            "0"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "number",
+            "12.3322202454279"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 27,
+        "c": {
+          "C": [
+            "text",
+            "4"
+          ],
+          "G": [
+            "percent",
+            "0"
+          ],
+          "H": [
+            "number",
+            "0"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "number",
+            "42.384857151494"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 37,
+    "title": "Input assumptions( Offshore based Macro Algae)",
+    "rows": []
+  },
+  {
+    "start": 39,
+    "title": "Fuel Conversion Efficiency",
+    "unit": "2047",
+    "header": {
+      "C": [
+        "text",
+        "Trajectory"
+      ],
+      "D": [
+        "text",
+        "Off Shore Macro Algae"
+      ]
+    },
+    "columns": [
+      "C",
+      "D"
+    ],
+    "rows": [
+      {
+        "r": 44,
+        "c": {
+          "C": [
+            "text",
+            "1"
+          ],
+          "D": [
+            "percent",
+            "35"
+          ]
+        }
+      },
+      {
+        "r": 45,
+        "c": {
+          "C": [
+            "text",
+            "2"
+          ],
+          "D": [
+            "percent",
+            "43"
+          ]
+        }
+      },
+      {
+        "r": 46,
+        "c": {
+          "C": [
+            "text",
+            "3"
+          ],
+          "D": [
+            "percent",
+            "52"
+          ]
+        }
+      },
+      {
+        "r": 47,
+        "c": {
+          "C": [
+            "text",
+            "4"
+          ],
+          "D": [
+            "percent",
+            "60"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 51,
+    "title": "Areal Productivity",
+    "unit": "2047 ? TWh/ha/day",
+    "header": {
+      "C": [
+        "text",
+        "Trajectory"
+      ],
+      "D": [
+        "text",
+        "Off Shore Macro Algae"
+      ]
+    },
+    "columns": [
+      "C",
+      "D"
+    ],
+    "rows": [
+      {
+        "r": 56,
+        "c": {
+          "C": [
+            "text",
+            "1"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 57,
+        "c": {
+          "C": [
+            "text",
+            "2"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 58,
+        "c": {
+          "C": [
+            "text",
+            "3"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 59,
+        "c": {
+          "C": [
+            "text",
+            "4"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 63,
+    "title": "Input assumptions( Onshore  based Micro Algae)",
+    "rows": []
+  },
+  {
+    "start": 65,
+    "title": "Lipid Content",
+    "unit": "2047 ? % of algae matter",
+    "header": {
+      "C": [
+        "text",
+        "Trajectory"
+      ],
+      "D": [
+        "text",
+        "On Shore Micro Algae"
+      ]
+    },
+    "columns": [
+      "C",
+      "D"
+    ],
+    "rows": [
+      {
+        "r": 70,
+        "c": {
+          "C": [
+            "text",
+            "1"
+          ],
+          "D": [
+            "percent",
+            "18"
+          ]
+        }
+      },
+      {
+        "r": 71,
+        "c": {
+          "C": [
+            "text",
+            "2"
+          ],
+          "D": [
+            "percent",
+            "23"
+          ]
+        }
+      },
+      {
+        "r": 72,
+        "c": {
+          "C": [
+            "text",
+            "3"
+          ],
+          "D": [
+            "percent",
+            "28"
+          ]
+        }
+      },
+      {
+        "r": 73,
+        "c": {
+          "C": [
+            "text",
+            "4"
+          ],
+          "D": [
+            "percent",
+            "38"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 77,
+    "title": "Areal Productivity",
+    "unit": "2047 ? TWh/ha/day",
+    "header": {
+      "C": [
+        "text",
+        "Trajectory"
+      ],
+      "D": [
+        "text",
+        "On Shore Micro Algae"
+      ]
+    },
+    "columns": [
+      "C",
+      "D"
+    ],
+    "rows": [
+      {
+        "r": 82,
+        "c": {
+          "C": [
+            "text",
+            "1"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 83,
+        "c": {
+          "C": [
+            "text",
+            "2"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 84,
+        "c": {
+          "C": [
+            "text",
+            "3"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 85,
+        "c": {
+          "C": [
+            "text",
+            "4"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 89,
+    "title": "Annual Liquid Fuel Yeild from Lipid",
+    "unit": "",
+    "header": {},
+    "columns": [
+      "E"
+    ],
+    "rows": [
+      {
+        "r": 89,
+        "c": {
+          "E": [
+            "percent",
+            "90"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 93,
+    "title": "Derived assumptions",
+    "rows": []
+  },
+  {
+    "start": 96,
+    "title": "Liquid Fuel from Macro Algae",
+    "unit": "TWh/year",
+    "header": {
+      "C": [
+        "text",
+        "Trajectory"
+      ],
+      "D": [
+        "text",
+        "Description"
+      ],
+      "E": [
+        "text",
+        "Notes"
+      ],
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "C",
+      "D",
+      "E",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 99,
+        "c": {
+          "C": [
+            "text",
+            "1"
+          ],
+          "E": [
+            "text",
+            "Liquid Fuel/annum"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "number",
+            "1e-06"
+          ],
+          "I": [
+            "number",
+            "1e-06"
+          ],
+          "J": [
+            "number",
+            "0"
+          ],
+          "K": [
+            "number",
+            "1e-07"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "number",
+            "0.00237272154794188"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 100,
+        "c": {
+          "C": [
+            "text",
+            "2"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "number",
+            "1e-06"
+          ],
+          "I": [
+            "number",
+            "1e-06"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "number",
+            "0"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "number",
+            "0.0478251687007036"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 101,
+        "c": {
+          "C": [
+            "text",
+            "3"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "number",
+            "1e-06"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "number",
+            "0.01"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "number",
+            "0.72706967433362"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 102,
+        "c": {
+          "C": [
+            "text",
+            "4"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "number",
+            "1e-06"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "number",
+            "0.02"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "number",
+            "2.28798149265824"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 106,
+    "title": "Liquid Fuel from Onland  MicroAlgae",
+    "unit": "TWh/year",
+    "header": {
+      "C": [
+        "text",
+        "Trajectory"
+      ],
+      "D": [
+        "text",
+        "Description"
+      ],
+      "E": [
+        "text",
+        "Notes"
+      ],
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "C",
+      "D",
+      "E",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 109,
+        "c": {
+          "C": [
+            "text",
+            "1"
+          ],
+          "E": [
+            "text",
+            "Liquid Fuel/annum"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "number",
+            "0"
+          ],
+          "I": [
+            "number",
+            "1e-05"
+          ],
+          "J": [
+            "number",
+            "0"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 110,
+        "c": {
+          "C": [
+            "text",
+            "2"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "number",
+            "0"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 111,
+        "c": {
+          "C": [
+            "text",
+            "3"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "number",
+            "0"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 112,
+        "c": {
+          "C": [
+            "text",
+            "4"
+          ],
+          "G": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "number",
+            "0"
+          ],
+          "I": [
+            "number",
+            "5.796"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 118,
+    "title": "",
+    "unit": "",
+    "header": {
+      "C": [
+        "text",
+        "Vector"
+      ],
+      "D": [
+        "text",
+        "Description"
+      ],
+      "E": [
+        "text",
+        "Units"
+      ],
+      "H": [
+        "text",
+        "2021"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "C",
+      "D",
+      "E",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 119,
+        "c": {
+          "C": [
+            "text",
+            "V1.15"
+          ],
+          "D": [
+            "text",
+            "Liquid Fuel From Macro Algae"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 120,
+        "c": {
+          "D": [
+            "text",
+            "New Addition in Macro Algae Plants"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 122,
+        "c": {
+          "C": [
+            "text",
+            "V2.15"
+          ],
+          "D": [
+            "text",
+            "Liquid Fuel From Onland Micro Algae"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 123,
+        "c": {
+          "D": [
+            "text",
+            "New Addition in Micro Algae Plants"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 129,
+    "title": "Outputs",
+    "rows": []
+  },
+  {
+    "start": 131,
+    "title": "Energy produced and required",
+    "unit": "TWh",
+    "header": {
+      "C": [
+        "text",
+        "Vector"
+      ],
+      "D": [
+        "text",
+        "Name"
+      ],
+      "E": [
+        "text",
+        "Notes"
+      ],
+      "H": [
+        "text",
+        "Base Year"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "C",
+      "D",
+      "E",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 134,
+        "c": {
+          "C": [
+            "text",
+            "V.065"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 135,
+        "c": {
+          "C": [
+            "text",
+            "A.01"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 136,
+        "c": {
+          "C": [
+            "text",
+            "Total"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "start": 139,
+    "title": "Information",
+    "rows": []
+  },
+  {
+    "start": 141,
+    "title": "Information summary",
+    "unit": "",
+    "header": {
+      "C": [
+        "text",
+        "Vector"
+      ],
+      "D": [
+        "text",
+        "Information type"
+      ],
+      "E": [
+        "text",
+        "Notes"
+      ],
+      "H": [
+        "text",
+        "Base Year"
+      ],
+      "I": [
+        "text",
+        "2022"
+      ],
+      "J": [
+        "text",
+        "2023"
+      ],
+      "K": [
+        "text",
+        "2030"
+      ],
+      "L": [
+        "text",
+        "2035"
+      ],
+      "M": [
+        "text",
+        "2040"
+      ],
+      "N": [
+        "text",
+        "2045"
+      ],
+      "O": [
+        "text",
+        "2047"
+      ],
+      "P": [
+        "text",
+        "2050"
+      ],
+      "Q": [
+        "text",
+        "2055"
+      ],
+      "R": [
+        "text",
+        "2060"
+      ],
+      "S": [
+        "text",
+        "2065"
+      ],
+      "T": [
+        "text",
+        "2070"
+      ]
+    },
+    "columns": [
+      "C",
+      "D",
+      "E",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "rows": [
+      {
+        "r": 144,
+        "c": {
+          "C": [
+            "text",
+            "B.01"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      },
+      {
+        "r": 145,
+        "c": {
+          "C": [
+            "text",
+            "B.04"
+          ],
+          "D": [
+            "formula",
+            "-"
+          ],
+          "E": [
+            "formula",
+            "-"
+          ],
+          "H": [
+            "formula",
+            "-"
+          ],
+          "I": [
+            "formula",
+            "-"
+          ],
+          "J": [
+            "formula",
+            "-"
+          ],
+          "K": [
+            "formula",
+            "-"
+          ],
+          "L": [
+            "formula",
+            "-"
+          ],
+          "M": [
+            "formula",
+            "-"
+          ],
+          "N": [
+            "formula",
+            "-"
+          ],
+          "O": [
+            "formula",
+            "-"
+          ],
+          "P": [
+            "formula",
+            "-"
+          ],
+          "Q": [
+            "formula",
+            "-"
+          ],
+          "R": [
+            "formula",
+            "-"
+          ],
+          "S": [
+            "formula",
+            "-"
+          ],
+          "T": [
+            "formula",
+            "-"
+          ]
+        }
+      }
+    ]
+  }
+]

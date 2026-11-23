@@ -1,0 +1,927 @@
+{
+  "sections": [
+    {
+      "id": "vi",
+      "tab": "VI",
+      "sheet": "VI-KS",
+      "title": "Waste to Electricity",
+      "tables": [
+        {
+          "title": "Conversion Factor (%) ? Urban",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G16"
+                },
+                {
+                  "ref": "H16"
+                },
+                {
+                  "ref": "I16"
+                },
+                {
+                  "ref": "J16"
+                },
+                {
+                  "ref": "K16"
+                },
+                {
+                  "ref": "L16"
+                },
+                {
+                  "ref": "M16"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G17"
+                },
+                {
+                  "ref": "H17"
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                  "ref": "M17"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G18"
+                },
+                {
+                  "ref": "H18"
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                  "ref": "M18"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G19"
+                },
+                {
+                  "ref": "H19"
+                },
+                null,
+                null,
+                null,
+                null,
+                {
+                  "ref": "M19"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fuel Usage (%)",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G25"
+                },
+                {
+                  "ref": "H25"
+                },
+                {
+                  "ref": "I25"
+                },
+                {
+                  "ref": "J25"
+                },
+                {
+                  "ref": "K25"
+                },
+                {
+                  "ref": "L25"
+                },
+                {
+                  "ref": "M25"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G26"
+                },
+                {
+                  "ref": "H26"
+                },
+                {
+                  "ref": "I26"
+                },
+                {
+                  "ref": "J26"
+                },
+                {
+                  "ref": "K26"
+                },
+                {
+                  "ref": "L26"
+                },
+                {
+                  "ref": "M26"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G27"
+                },
+                {
+                  "ref": "H27"
+                },
+                {
+                  "ref": "I27"
+                },
+                {
+                  "ref": "J27"
+                },
+                {
+                  "ref": "K27"
+                },
+                {
+                  "ref": "L27"
+                },
+                {
+                  "ref": "M27"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G28"
+                },
+                {
+                  "ref": "H28"
+                },
+                {
+                  "ref": "I28"
+                },
+                {
+                  "ref": "J28"
+                },
+                {
+                  "ref": "K28"
+                },
+                {
+                  "ref": "L28"
+                },
+                {
+                  "ref": "M28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CHP (%)",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G43"
+                },
+                {
+                  "ref": "H43"
+                },
+                {
+                  "ref": "I43"
+                },
+                {
+                  "ref": "J43"
+                },
+                {
+                  "ref": "K43"
+                },
+                {
+                  "ref": "L43"
+                },
+                {
+                  "ref": "M43"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G44"
+                },
+                {
+                  "ref": "H44"
+                },
+                {
+                  "ref": "I44"
+                },
+                {
+                  "ref": "J44"
+                },
+                {
+                  "ref": "K44"
+                },
+                {
+                  "ref": "L44"
+                },
+                {
+                  "ref": "M44"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G45"
+                },
+                {
+                  "ref": "H45"
+                },
+                {
+                  "ref": "I45"
+                },
+                {
+                  "ref": "J45"
+                },
+                {
+                  "ref": "K45"
+                },
+                {
+                  "ref": "L45"
+                },
+                {
+                  "ref": "M45"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G46"
+                },
+                {
+                  "ref": "H46"
+                },
+                {
+                  "ref": "I46"
+                },
+                {
+                  "ref": "J46"
+                },
+                {
+                  "ref": "K46"
+                },
+                {
+                  "ref": "L46"
+                },
+                {
+                  "ref": "M46"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Potential of Usage or conversion factor (%) rural",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G61"
+                },
+                {
+                  "ref": "H61"
+                },
+                {
+                  "ref": "I61"
+                },
+                {
+                  "ref": "J61"
+                },
+                {
+                  "ref": "K61"
+                },
+                {
+                  "ref": "L61"
+                },
+                {
+                  "ref": "M61"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G62"
+                },
+                {
+                  "ref": "H62"
+                },
+                {
+                  "ref": "I62"
+                },
+                {
+                  "ref": "J62"
+                },
+                {
+                  "ref": "K62"
+                },
+                {
+                  "ref": "L62"
+                },
+                {
+                  "ref": "M62"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G63"
+                },
+                {
+                  "ref": "H63"
+                },
+                {
+                  "ref": "I63"
+                },
+                {
+                  "ref": "J63"
+                },
+                {
+                  "ref": "K63"
+                },
+                {
+                  "ref": "L63"
+                },
+                {
+                  "ref": "M63"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G64"
+                },
+                {
+                  "ref": "H64"
+                },
+                {
+                  "ref": "I64"
+                },
+                {
+                  "ref": "J64"
+                },
+                {
+                  "ref": "K64"
+                },
+                {
+                  "ref": "L64"
+                },
+                {
+                  "ref": "M64"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Daily urban per capita MSW generated ? growth assumption",
+          "columns": [
+            "Rate (decimal)"
+          ],
+          "firstColumn": "Assumption",
+          "rows": [
+            {
+              "label": "Growth assumption",
+              "unit": "Decimal",
+              "cells": [
+                {
+                  "ref": "F82"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Urban MSW generated (TPD)",
+          "columns": [
+            "2021",
+            "2025"
+          ],
+          "firstColumn": "Description",
+          "rows": [
+            {
+              "label": "Urban MSW",
+              "unit": "tonnes/day",
+              "cells": [
+                {
+                  "ref": "G87"
+                },
+                {
+                  "ref": "H87"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Daily rural per capita organic MSW generated (kg)",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Description",
+          "rows": [
+            {
+              "label": "Rural organic MSW",
+              "unit": "kg/person/day",
+              "cells": [
+                {
+                  "ref": "G92"
+                },
+                {
+                  "ref": "H92"
+                },
+                {
+                  "ref": "I92"
+                },
+                {
+                  "ref": "J92"
+                },
+                {
+                  "ref": "K92"
+                },
+                {
+                  "ref": "L92"
+                },
+                {
+                  "ref": "M92"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Urban MSW Collection efficiency (%)",
+          "columns": [
+            "2021",
+            "2050"
+          ],
+          "firstColumn": "Description",
+          "rows": [
+            {
+              "label": "Collection efficiency",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G102"
+                },
+                {
+                  "ref": "M102"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Segregated waste collection efficiency in urban areas (%)",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Description",
+          "rows": [
+            {
+              "label": "Urban areas",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F112"
+                },
+                {
+                  "ref": "G112"
+                },
+                {
+                  "ref": "H112"
+                },
+                {
+                  "ref": "I112"
+                },
+                {
+                  "ref": "J112"
+                },
+                {
+                  "ref": "K112"
+                },
+                {
+                  "ref": "L112"
+                },
+                {
+                  "ref": "M112"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Segregated waste collection efficiency in rural areas (%)",
+          "columns": [
+            "2010",
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Description",
+          "rows": [
+            {
+              "label": "Rural areas",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F117"
+                },
+                {
+                  "ref": "G117"
+                },
+                {
+                  "ref": "H117"
+                },
+                {
+                  "ref": "I117"
+                },
+                {
+                  "ref": "J117"
+                },
+                {
+                  "ref": "K117"
+                },
+                {
+                  "ref": "L117"
+                },
+                {
+                  "ref": "M117"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "MSW Composition (urban)",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Description",
+          "rows": [
+            {
+              "label": "Organic / compostables",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G142"
+                },
+                {
+                  "ref": "H142"
+                },
+                {
+                  "ref": "I142"
+                },
+                {
+                  "ref": "J142"
+                },
+                {
+                  "ref": "K142"
+                },
+                {
+                  "ref": "L142"
+                },
+                {
+                  "ref": "M142"
+                }
+              ]
+            },
+            {
+              "label": "Combustibles",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G143"
+                },
+                {
+                  "ref": "H143"
+                },
+                {
+                  "ref": "I143"
+                },
+                {
+                  "ref": "J143"
+                },
+                {
+                  "ref": "K143"
+                },
+                {
+                  "ref": "L143"
+                },
+                {
+                  "ref": "M143"
+                }
+              ]
+            },
+            {
+              "label": "Recyclables / inorganic",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G144"
+                },
+                {
+                  "ref": "H144"
+                },
+                {
+                  "ref": "I144"
+                },
+                {
+                  "ref": "J144"
+                },
+                {
+                  "ref": "K144"
+                },
+                {
+                  "ref": "L144"
+                },
+                {
+                  "ref": "M144"
+                }
+              ]
+            },
+            {
+              "label": "Others",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G145"
+                },
+                {
+                  "ref": "H145"
+                },
+                {
+                  "ref": "I145"
+                },
+                {
+                  "ref": "J145"
+                },
+                {
+                  "ref": "K145"
+                },
+                {
+                  "ref": "L145"
+                },
+                {
+                  "ref": "M145"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bio-chemical conversion",
+          "columns": [
+            "Urban",
+            "Rural"
+          ],
+          "firstColumn": "Description",
+          "rows": [
+            {
+              "label": "Total Solids (TS)",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F151"
+                },
+                {
+                  "ref": "G151"
+                }
+              ]
+            },
+            {
+              "label": "Total Volatile Solids (of TS)",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F152"
+                },
+                {
+                  "ref": "G152"
+                }
+              ]
+            },
+            {
+              "label": "Typical digestion efficiency",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F153"
+                },
+                {
+                  "ref": "G153"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Typical bio-gas yield",
+          "columns": [
+            "Urban",
+            "Rural"
+          ],
+          "firstColumn": "Description",
+          "rows": [
+            {
+              "label": "Typical bio-gas yield",
+              "unit": "m?/kg of VS destroyed",
+              "cells": [
+                {
+                  "ref": "F154"
+                },
+                {
+                  "ref": "G154"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Thermo-chemical conversion",
+          "columns": [
+            "Value"
+          ],
+          "firstColumn": "Description",
+          "rows": [
+            {
+              "label": "Conversion efficiency of 1 GW waste to electricity plant",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F163"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "PLF (%)",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Plant type",
+          "rows": [
+            {
+              "label": "Waste to electricity",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G290"
+                },
+                {
+                  "ref": "H290"
+                },
+                {
+                  "ref": "I290"
+                },
+                {
+                  "ref": "J290"
+                },
+                {
+                  "ref": "K290"
+                },
+                {
+                  "ref": "L290"
+                },
+                {
+                  "ref": "M290"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

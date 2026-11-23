@@ -1,0 +1,517 @@
+{
+  "sections": [
+    {
+      "id": "viia",
+      "tab": "VII.a",
+      "sheet": "VII.a-KS",
+      "title": "Electricity imports",
+      "tables": []
+    },
+    {
+      "id": "viib",
+      "tab": "VII.b",
+      "sheet": "VII.b-KS",
+      "title": "T&D Losses",
+      "tables": [
+        {
+          "title": "T&D ? Technical Losses",
+          "columns": [
+            "2020",
+            "2021",
+            "2025",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F28"
+                },
+                {
+                  "ref": "G28"
+                },
+                {
+                  "ref": "H28"
+                },
+                {
+                  "ref": "M28"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F29"
+                },
+                {
+                  "ref": "G29"
+                },
+                {
+                  "ref": "H29"
+                },
+                {
+                  "ref": "M29"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F30"
+                },
+                {
+                  "ref": "G30"
+                },
+                {
+                  "ref": "H30"
+                },
+                {
+                  "ref": "M30"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F31"
+                },
+                {
+                  "ref": "G31"
+                },
+                {
+                  "ref": "H31"
+                },
+                {
+                  "ref": "M31"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "T&D Technical and Commercial Losses",
+          "columns": [
+            "2020",
+            "2021",
+            "2025",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F37"
+                },
+                {
+                  "ref": "G37"
+                },
+                {
+                  "ref": "H37"
+                },
+                {
+                  "ref": "M37"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F38"
+                },
+                {
+                  "ref": "G38"
+                },
+                {
+                  "ref": "H38"
+                },
+                {
+                  "ref": "M38"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F39"
+                },
+                {
+                  "ref": "G39"
+                },
+                {
+                  "ref": "H39"
+                },
+                {
+                  "ref": "M39"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "F40"
+                },
+                {
+                  "ref": "G40"
+                },
+                {
+                  "ref": "H40"
+                },
+                {
+                  "ref": "M40"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Asset Life of T&D system",
+          "columns": [
+            "Lifespan"
+          ],
+          "firstColumn": "System",
+          "rows": [
+            {
+              "label": "Transmission",
+              "unit": "years",
+              "cells": [
+                {
+                  "ref": "D47"
+                }
+              ]
+            },
+            {
+              "label": "Distribution",
+              "unit": "years",
+              "cells": [
+                {
+                  "ref": "D48"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Duration of implementation of Smart Grid Mission",
+          "columns": [
+            "Start year",
+            "End year"
+          ],
+          "firstColumn": "Assumption",
+          "rows": [
+            {
+              "label": "Implementation period",
+              "unit": "Year",
+              "cells": [
+                {
+                  "ref": "E81"
+                },
+                {
+                  "ref": "G81"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "viic",
+      "tab": "VII.c",
+      "sheet": "VII.C-KS",
+      "title": "Storage, demand shifting",
+      "tables": [
+        {
+          "title": "Cumulative Storage ? Energy Applications",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Trajectory",
+          "rows": [
+            {
+              "label": "Trajectory 1",
+              "unit": "GW",
+              "cells": [
+                {
+                  "ref": "G27"
+                },
+                {
+                  "ref": "H27"
+                },
+                {
+                  "ref": "I27"
+                },
+                {
+                  "ref": "J27"
+                },
+                {
+                  "ref": "K27"
+                },
+                {
+                  "ref": "L27"
+                },
+                {
+                  "ref": "M27"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 2",
+              "unit": "GW",
+              "cells": [
+                {
+                  "ref": "G28"
+                },
+                {
+                  "ref": "H28"
+                },
+                {
+                  "ref": "I28"
+                },
+                {
+                  "ref": "J28"
+                },
+                {
+                  "ref": "K28"
+                },
+                {
+                  "ref": "L28"
+                },
+                {
+                  "ref": "M28"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 3",
+              "unit": "GW",
+              "cells": [
+                {
+                  "ref": "G29"
+                },
+                {
+                  "ref": "H29"
+                },
+                {
+                  "ref": "I29"
+                },
+                {
+                  "ref": "J29"
+                },
+                {
+                  "ref": "K29"
+                },
+                {
+                  "ref": "L29"
+                },
+                {
+                  "ref": "M29"
+                }
+              ]
+            },
+            {
+              "label": "Trajectory 4",
+              "unit": "GW",
+              "cells": [
+                {
+                  "ref": "G30"
+                },
+                {
+                  "ref": "H30"
+                },
+                {
+                  "ref": "I30"
+                },
+                {
+                  "ref": "J30"
+                },
+                {
+                  "ref": "K30"
+                },
+                {
+                  "ref": "L30"
+                },
+                {
+                  "ref": "M30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Share of pumped hydro storage, battery storage and other types of storage",
+          "columns": [
+            "2021",
+            "2025",
+            "2029",
+            "2035",
+            "2040",
+            "2045",
+            "2050"
+          ],
+          "firstColumn": "Storage type",
+          "rows": [
+            {
+              "label": "Pumped Hydro",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G52"
+                },
+                {
+                  "ref": "H52"
+                },
+                {
+                  "ref": "I52"
+                },
+                {
+                  "ref": "J52"
+                },
+                {
+                  "ref": "K52"
+                },
+                {
+                  "ref": "L52"
+                },
+                {
+                  "ref": "M52"
+                }
+              ]
+            },
+            {
+              "label": "Battery Storage",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G53"
+                },
+                {
+                  "ref": "H53"
+                },
+                {
+                  "ref": "I53"
+                },
+                {
+                  "ref": "J53"
+                },
+                {
+                  "ref": "K53"
+                },
+                {
+                  "ref": "L53"
+                },
+                {
+                  "ref": "M53"
+                }
+              ]
+            },
+            {
+              "label": "Others",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "G54"
+                },
+                {
+                  "ref": "H54"
+                },
+                {
+                  "ref": "I54"
+                },
+                {
+                  "ref": "J54"
+                },
+                {
+                  "ref": "K54"
+                },
+                {
+                  "ref": "L54"
+                },
+                {
+                  "ref": "M54"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Efficiency",
+          "columns": [
+            "Value"
+          ],
+          "firstColumn": "Storage type",
+          "rows": [
+            {
+              "label": "Pumped Hydro",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "E57"
+                }
+              ]
+            },
+            {
+              "label": "Battery Storage",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "E58"
+                }
+              ]
+            },
+            {
+              "label": "Others",
+              "unit": "%",
+              "cells": [
+                {
+                  "ref": "E59"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Numbers of hours battery stores energy in a day (hours)",
+          "columns": [
+            "Value"
+          ],
+          "firstColumn": "Assumption",
+          "rows": [
+            {
+              "label": "Daily storage duration",
+              "unit": "hours",
+              "cells": [
+                {
+                  "ref": "E61"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
