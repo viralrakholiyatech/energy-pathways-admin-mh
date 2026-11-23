@@ -10,7 +10,7 @@ beforeEach(() => {
   fetchSheetInputs.mockImplementation(async (sheet, fields) => Object.fromEntries(fields.map(field => [field.key, '12.5'])));
 });
 
-test('remaining pages use the requested MPSEC reference sheets', () => {
+test('remaining pages use the legacy reference sheets', () => {
   expect(Object.fromEntries(Object.entries(REMAINING_CONFIGS).map(([page,c]) => [page,c.sections.map(s=>s.sheet)]))).toEqual({
     IX:['IX'], X:['X.a-RM','X.b-RM'], XI:['XI-KS'], XII:['XII.a-ND,KS','XII.b-ND'],
     XIII:['XIII.a-PB'], XIV:['XIV-Evelin'], XVII:['XVII.a','XVII.b']

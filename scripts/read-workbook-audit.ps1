@@ -1,4 +1,4 @@
-param([string]$Workbook = 'C:\Users\Admin\Downloads\MPSEC_UpdatedVersion 22nd Oct (1).xlsx')
+param([string]$Workbook = (Join-Path $PSScriptRoot '../MHSESS- COST CHANGES+Industry GDP changes+new RE Policy (1).xlsx'))
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.IO.Compression
 $stream = [IO.File]::Open($Workbook, 'Open', 'Read', 'ReadWrite')

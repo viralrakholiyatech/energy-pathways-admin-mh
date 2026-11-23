@@ -54,10 +54,10 @@ test('expired token returns to login',async()=>{
 test('shows the workbook sheet and cell rejected by the API',async()=>{
   fetch.mockResolvedValue({ok:false,status:422,json:async()=>({
     error:'Workbook validation failed; no database data was changed',
-    details:{issues:[{sheet:'MPSEC Results',address:'C76',error:'New formula is not supported by the deployed model'}]}
+    details:{issues:[{sheet:'MHSEC Results',address:'C76',error:'New formula is not supported by the deployed model'}]}
   })});
   await act(async()=>Simulate.submit(container.querySelector('form')));
-  expect(container.querySelector('[role=alert]').textContent).toContain('MPSEC Results!C76: New formula is not supported by the deployed model');
+  expect(container.querySelector('[role=alert]').textContent).toContain('MHSEC Results!C76: New formula is not supported by the deployed model');
   expect(Swal.fire).not.toHaveBeenCalled();
 });
 test('does not submit with a missing token or send duplicate requests',async()=>{
