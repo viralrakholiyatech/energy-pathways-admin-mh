@@ -20,7 +20,7 @@ export function NumericInput({ definition, value, error, onChange, onBlur, input
     <div className="min-w-[112px]">
       <div className="relative">
       <input
-        id={id} name={definition.key} type="text" inputMode={isText ? "text" : "decimal"} autoComplete="off" readOnly={readOnly}
+        id={id} name={definition.key} type="text" inputMode={isText ? "text" : "decimal"} autoComplete="off" readOnly={readOnly} disabled={readOnly}
         aria-label={`${definition.label} (${definition.unit})`} aria-invalid={Boolean(error)}
         aria-describedby={error ? `${id}-error` : undefined}
         value={displayValue} placeholder={placeholder ?? (definition.optional ? "Optional" : "Enter value")}

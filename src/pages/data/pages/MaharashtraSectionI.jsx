@@ -1,3 +1,4 @@
+import MaharashtraApiStatus from "../components/MaharashtraApiStatus";
 import { useEffect, useState } from "react";
 import { NumericInput } from "../components/WorkbookInputTable";
 import sheets from "../schemas/mhSectionI.json";
@@ -420,25 +421,15 @@ export default function MaharashtraSectionI({ section = "I" }) {
   const enabledTabs = renewable ? Object.keys(renewableSheets) : tabs;
   const singleSheet = singleSheets[section];
   const showTabs = !singleSheet || Boolean(singleSheet.tabLabel);
-  const draftKey = "mh-admin:section-" + section.toLowerCase() + ":draft:v1";
   const [tab,setTab] = useState(singleSheet ? section : tabs[0]);
   const title = renewable ? renewableSheets[tab].title : singleSheet?.title ?? sheets[tab].title;
   const blocks = renewable ? renewableSheets[tab].blocks : singleSheet?.blocks ?? layouts[tab];
-  const [draft,setDraft] = useState(() => {
-    try { return JSON.parse(sessionStorage.getItem(draftKey)) || {}; } catch { return {}; }
-  });
-  const [notice,setNotice] = useState("");
   const apiSheet = singleSheet?.tabLabel ?? tab.replace(/^IV\.c\.([12])$/, "IV.c$1");
-  const isApiSheet = section === "III"
-    || (section === "I" && ["I.a", "I.b", "I.c"].includes(tab))
-    || section === "IV"
-    || ["V.a", "V.b", "V.c", "VI", "VII.a", "VII.b", "VII.c", "VIII", "X.a", "X.b", "XI", "XII.a", "XII.b", "XIII", "XIV", "XV.a", "XV.b", "XV.c", "XVII.a", "XVII.b"].includes(section);
   const [sheetResponse,setSheetResponse] = useState(null);
   const apiValues = sheetResponse?.sheet === apiSheet ? sheetResponse.values : null;
   const [apiError,setApiError] = useState("");
   const [apiAttempt,setApiAttempt] = useState(0);
   useEffect(() => {
-    if (!isApiSheet) return undefined;
     let active = true;
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 20000);
@@ -454,7 +445,7 @@ export default function MaharashtraSectionI({ section = "I" }) {
       if (!response.ok) throw new Error(`Could not load ${apiSheet} data (HTTP ${response.status}).`);
       const payload = await response.json();
       const responseSheet = String(payload?.sheet || "").replace(/\s/g, "");
-      const acceptedSheetNames = [tab, apiSheet, `${apiSheet}-KS`, ...(apiSheet === "III" ? ["III-ND"] : []), ...(apiSheet === "XIII.a" ? ["XIII.a-PB"] : []), ...(apiSheet === "XIV" ? ["XIV-Evelin"] : [])];
+      const acceptedSheetNames = [tab, apiSheet, `${apiSheet}-KS`, ...(["II", "III"].includes(apiSheet) ? [apiSheet + "-ND"] : []), ...(apiSheet === "XIII.a" ? ["XIII.a-PB"] : []), ...(apiSheet === "XIV" ? ["XIV-Evelin"] : [])];
       if (!acceptedSheetNames.includes(responseSheet) || !payload.values
         || typeof payload.values !== "object" || Array.isArray(payload.values)) {
         throw new Error(`The server returned an invalid ${apiSheet} response.`);
@@ -499,14 +490,7 @@ export default function MaharashtraSectionI({ section = "I" }) {
       if (active) setApiError(error.message || `Could not load ${apiSheet} data. Please try again.`);
     }).finally(() => clearTimeout(timeout));
     return () => { active = false; clearTimeout(timeout); controller.abort(); };
-  }, [isApiSheet, apiSheet, section, tab, apiAttempt]);
-  const change = (key,value) => { setDraft(prev => ({...prev,[key]:value})); setNotice(""); };
-  function save() {
-    const invalid = Object.entries(draft).find(([,v]) => String(v).trim() === "" || !Number.isFinite(Number(v)));
-    if (invalid) { setNotice("Enter a number for " + invalid[0] + "."); return; }
-    try { sessionStorage.setItem(draftKey, JSON.stringify(draft)); setNotice("Section "+section+" draft saved in this tab."); }
-    catch { setNotice("Could not save the draft in this tab."); }
-  }
+  }, [apiSheet, section, tab, apiAttempt]);
   return <div className="space-y-5 pb-3"><div className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
     {showTabs && <div role="tablist" aria-label={"Section "+section+" sheets"} className="flex gap-2 overflow-x-auto border-b bg-slate-50 px-4 py-2.5">
       {tabs.map((name,i) => <button key={name} type="button" role="tab" id={"tab-"+name} aria-controls="mh-section-i-panel"
@@ -518,13 +502,8 @@ export default function MaharashtraSectionI({ section = "I" }) {
         }} className={"disabled:opacity-50 rounded-lg border px-3 py-1.5 text-xs font-semibold shadow-sm "+(name===tab ? "border-emerald-700 bg-emerald-700 text-white" : "border-slate-300 bg-white text-slate-700")}>{singleSheet?.tabLabel ?? name}</button>)}
     </div>}
     <section key={tab} id="mh-section-i-panel" role={showTabs ? "tabpanel" : undefined} aria-labelledby={showTabs ? "tab-"+tab : undefined} className="space-y-6 p-4 sm:p-6">
-        {isApiSheet && <div aria-live="polite">
-          {apiError ? <div role="alert" className="text-sm text-red-700">{apiError}
-            <button type="button" className="ml-3 underline" onClick={() => setApiAttempt(value => value + 1)}>Retry</button>
-          </div> : apiValues === null
-            ? <span role="status" className="text-sm text-gray-600">Loading {apiSheet} data from API...</span>
-            : <span role="status" className="text-xs font-medium text-emerald-700">Data loaded from API</span>}
-        </div>}
+      <MaharashtraApiStatus sheet={apiSheet} error={apiError} loading={apiValues === null}
+        retry={() => { setApiError(""); setApiAttempt(value => value + 1); }} />
       <h2 className="text-base font-bold">{singleSheet?.tabLabel ?? tab} {title}</h2>
       {blocks.map(block => <section key={block.start} className={block.rows.length ? "overflow-hidden rounded-xl border border-gray-200" : ""}>
         {block.title && <h3 className={"text-sm font-semibold "+(block.rows.length ? "border-b px-4 py-4" : "")}>{block.title}{block.unit && <span className="ml-2 text-xs font-normal text-gray-500">{block.unit}</span>}</h3>}
@@ -539,16 +518,13 @@ export default function MaharashtraSectionI({ section = "I" }) {
             const normalizedApiValue = cell?.[0] === "percent" && apiValue !== undefined && apiValue !== ""
               && apiValue !== "-" && Number.isFinite(numericApiValue)
               ? String(Number((numericApiValue * 100).toPrecision(15))) : apiValue ?? "";
-            return <td key={col} className="whitespace-nowrap px-3 py-2">{editable && isApiSheet && apiValues === null ? "-" : editable ?
+            return <td key={col} className="whitespace-nowrap px-3 py-2">{editable && apiValues === null ? "-" : editable ?
               <NumericInput definition={{key,label:key,unit:cell[0]==="percent" ? "%" : ""}}
-                value={String(draft[key] ?? (isApiSheet ? normalizedApiValue : cell[1]))}
-                placeholder={isApiSheet ? "-" : undefined}
-                inputPrefix="mh-i" onBlur={() => {}} onChange={change}/> : cell?.[1]}</td>;
+                value={String(normalizedApiValue)}
+                placeholder="-" readOnly
+                inputPrefix="mh-i"/> : cell?.[1]}</td>;
           })}</tr>)}</tbody></table></div>}
       </section>)}
     </section></div>
-    <div className="sticky bottom-3 flex items-center justify-between rounded-2xl border bg-white p-4 shadow-lg">
-      <span role="status" className="text-xs text-gray-600">{notice || "Drafts stay in this browser tab."}</span>
-      <button type="button" onClick={save} className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white">Save Section {section} draft</button>
-    </div></div>;
+  </div>;
 }

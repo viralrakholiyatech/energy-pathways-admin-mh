@@ -1,3 +1,4 @@
+import MaharashtraApiStatus from "../components/MaharashtraApiStatus";
 import { fetchMaharashtraGdpInputs } from "../api/gdpApi";
 import { memo, useEffect, useState } from "react";
 import { FiChevronUp, FiChevronDown } from "react-icons/fi";
@@ -152,14 +153,8 @@ export default function MaharashtraGdpForm() {
 
   const [closed, setClosed] = useState({});
   return <div className="space-y-5 pb-3">
-    <div aria-live="polite">
-      {loadStatus === "loaded" && <span className="inline-block rounded-full border border-emerald-100 bg-emerald-50 px-3 py-1.5 text-xs font-medium text-emerald-700">Data loaded from API</span>}
-      {loadStatus === "loading" && <span className="text-sm text-gray-600">Loading GDP data from API...</span>}
-      {loadStatus === "error" && <div role="alert" className="rounded-xl border border-red-200 bg-white p-4 text-sm text-red-700">
-        {loadError} Workbook defaults are not shown.
-        <button type="button" className="ml-3 underline" onClick={() => { setLoadStatus("loading"); setAttempt(value => value + 1); }}>Retry loading GDP</button>
-      </div>}
-    </div>
+    <MaharashtraApiStatus sheet="GDP" loading={loadStatus === "loading"} error={loadStatus === "error" && loadError}
+      retry={() => { setLoadStatus("loading"); setAttempt(value => value + 1); }} />
     <WorkbookInputTable title={growthTitle} firstColumn={header.C[1]} showUnit={false}
       metadataColumns={[{ key: "description", label: header.D[1] }, { key: "assumption", label: "" }]}
       columns={periods.map(col => header[col][1])} rows={scenarios}

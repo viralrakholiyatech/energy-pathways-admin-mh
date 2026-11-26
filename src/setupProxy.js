@@ -6,6 +6,7 @@ const DEFAULT_BACKEND_PATHS = new Set([
   "/api/admin/sheets/I.a",
   "/api/admin/sheets/I.b",
   "/api/admin/sheets/I.c",
+  "/api/admin/sheets/II",
   "/api/admin/sheets/III",
   "/api/admin/sheets/IV.a",
   "/api/admin/sheets/IV.b",

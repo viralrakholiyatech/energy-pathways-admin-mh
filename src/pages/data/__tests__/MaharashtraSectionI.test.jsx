@@ -25,6 +25,7 @@ test("loads I.a values from its sheet API when Section I opens", async () => {
       method: "GET",
       headers: { Accept: "application/json", Authorization: "Bearer session-token" }
     }));
+    expect(container.querySelector('input[name="I.a!F41"]').disabled).toBe(true);
     expect(container.querySelector('input[name="I.a!F41"]').value).toBe("12.3");
     expect(container.textContent).toContain("Data loaded from API");
 
