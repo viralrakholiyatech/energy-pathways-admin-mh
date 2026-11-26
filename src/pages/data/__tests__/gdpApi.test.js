@@ -1,4 +1,4 @@
-import { fetchGdpInputs, parseGdpResponse } from '../api/gdpApi';
+import { fetchMaharashtraGdpInputs, fetchGdpInputs, parseGdpResponse } from '../api/gdpApi';
 import { getToken } from '../../../utils/auth';
 jest.mock('../../../utils/auth', () => ({ getToken: jest.fn() }));
 afterEach(() => { jest.restoreAllMocks(); });
@@ -41,4 +41,19 @@ test('requests GDP through the existing same-origin proxy and forwards auth and 
   const controller = new AbortController();
   await fetchGdpInputs(controller.signal);
   expect(fetch).toHaveBeenCalledWith('/api/admin/sheets/GDP', expect.objectContaining({ method: 'GET', signal: controller.signal, cache: 'no-store', headers: { Accept: 'application/json', Authorization: 'Bearer test-token' } }));
+});
+
+test('loads MH fields by address using the login token and preserves display percentages', async () => {
+  getToken.mockReturnValue('session-token');
+  global.fetch = jest.fn().mockResolvedValue({ ok: true, json: async () => ({
+    sheet: 'GDP', dataSource: 'mysql', readOnly: true,
+    fields: [{ address: 'F16', key: 'F16', value: '10', rawValue: 0.1 },
+      { address: 'F17', rawValue: 0.08 }, { address: 'F18', value: '0' }],
+    values: { F16: 10 }
+  }) });
+  const fields = new Map(['F16', 'F17', 'F18'].map(ref => [ref, 'percent']));
+  await expect(fetchMaharashtraGdpInputs(fields)).resolves.toEqual({ F16: '10', F17: '8', F18: '0' });
+  expect(fetch).toHaveBeenCalledWith('/api/admin/sheets/GDP', expect.objectContaining({
+    headers: expect.objectContaining({ Authorization: 'Bearer session-token' })
+  }));
 });

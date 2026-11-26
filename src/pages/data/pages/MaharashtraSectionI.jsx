@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { NumericInput } from "../components/WorkbookInputTable";
 import sheets from "../schemas/mhSectionI.json";
+import { getToken } from "../../../utils/auth";
 
 import nuclearRows from "../schemas/mhSectionII.json";
 
@@ -427,6 +428,78 @@ export default function MaharashtraSectionI({ section = "I" }) {
     try { return JSON.parse(sessionStorage.getItem(draftKey)) || {}; } catch { return {}; }
   });
   const [notice,setNotice] = useState("");
+  const apiSheet = singleSheet?.tabLabel ?? tab.replace(/^IV\.c\.([12])$/, "IV.c$1");
+  const isApiSheet = section === "III"
+    || (section === "I" && ["I.a", "I.b", "I.c"].includes(tab))
+    || section === "IV"
+    || ["V.a", "V.b", "V.c", "VI", "VII.a", "VII.b", "VII.c", "VIII", "X.a", "X.b", "XI", "XII.a", "XII.b", "XIII", "XIV", "XV.a", "XV.b", "XV.c", "XVII.a", "XVII.b"].includes(section);
+  const [sheetResponse,setSheetResponse] = useState(null);
+  const apiValues = sheetResponse?.sheet === apiSheet ? sheetResponse.values : null;
+  const [apiError,setApiError] = useState("");
+  const [apiAttempt,setApiAttempt] = useState(0);
+  useEffect(() => {
+    if (!isApiSheet) return undefined;
+    let active = true;
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 20000);
+    setSheetResponse(null);
+    setApiError("");
+    const token = getToken();
+    fetch(`/api/admin/sheets/${apiSheet}`, {
+      method: "GET",
+      signal: controller.signal,
+      cache: "no-store",
+      headers: { Accept: "application/json", ...(token ? { Authorization: `Bearer ${token}` } : {}) }
+    }).then(async response => {
+      if (!response.ok) throw new Error(`Could not load ${apiSheet} data (HTTP ${response.status}).`);
+      const payload = await response.json();
+      const responseSheet = String(payload?.sheet || "").replace(/\s/g, "");
+      const acceptedSheetNames = [tab, apiSheet, `${apiSheet}-KS`, ...(apiSheet === "III" ? ["III-ND"] : []), ...(apiSheet === "XIII.a" ? ["XIII.a-PB"] : []), ...(apiSheet === "XIV" ? ["XIV-Evelin"] : [])];
+      if (!acceptedSheetNames.includes(responseSheet) || !payload.values
+        || typeof payload.values !== "object" || Array.isArray(payload.values)) {
+        throw new Error(`The server returned an invalid ${apiSheet} response.`);
+      }
+      const apiRows = singleSheets[section]
+        ? singleSheets[section].blocks.flatMap(block => block.rows)
+        : section === "IV"
+          ? renewableSheets[tab].blocks.flatMap(block => block.rows)
+          : sheets[tab].rows;
+      const inputTypes = new Map(apiRows.flatMap(row => Object.entries(row.c)
+        .filter(([, cell]) => ["number", "percent"].includes(cell[0]))
+        .map(([column, [kind]]) => [`${column}${row.r}`, kind])));
+      const values = {};
+      for (const [address, entry] of Object.entries(payload.values)) {
+        const ref = address.replace(/^[^!]+!/, "").replace(/\$/g, "").toUpperCase();
+        const kind = inputTypes.get(ref);
+        if (!kind) continue;
+        let value = entry;
+        if (Array.isArray(entry)) {
+          if (entry.length !== 2 || entry[0] !== kind) throw new Error(`The server returned an invalid ${apiSheet} value at ${ref}.`);
+          value = entry[1];
+        } else if (entry && typeof entry === "object") {
+          if (Object.prototype.hasOwnProperty.call(entry, "value")) value = entry.value;
+          else if (Object.prototype.hasOwnProperty.call(entry, "rawValue")) value = entry.rawValue;
+          else throw new Error(`The server returned an invalid ${apiSheet} value at ${ref}.`);
+        }
+        if (value !== null && value !== undefined && typeof value !== "string"
+          && (typeof value !== "number" || !Number.isFinite(value))) {
+          throw new Error(`The server returned an invalid ${apiSheet} value at ${ref}.`);
+        }
+        if (value !== null && value !== undefined && value !== "" && value !== "-"
+          && !Number.isFinite(Number(value))) {
+          throw new Error(`The server returned an invalid ${apiSheet} value at ${ref}.`);
+        }
+        values[ref] = value == null ? "" : String(value);
+      }
+      if (!Object.keys(values).length) throw new Error(`The ${apiSheet} response contained no numeric input values.`);
+      return values;
+    }).then(values => {
+      if (active) setSheetResponse({ sheet: apiSheet, values });
+    }).catch(error => {
+      if (active) setApiError(error.message || `Could not load ${apiSheet} data. Please try again.`);
+    }).finally(() => clearTimeout(timeout));
+    return () => { active = false; clearTimeout(timeout); controller.abort(); };
+  }, [isApiSheet, apiSheet, section, tab, apiAttempt]);
   const change = (key,value) => { setDraft(prev => ({...prev,[key]:value})); setNotice(""); };
   function save() {
     const invalid = Object.entries(draft).find(([,v]) => String(v).trim() === "" || !Number.isFinite(Number(v)));
@@ -445,6 +518,13 @@ export default function MaharashtraSectionI({ section = "I" }) {
         }} className={"disabled:opacity-50 rounded-lg border px-3 py-1.5 text-xs font-semibold shadow-sm "+(name===tab ? "border-emerald-700 bg-emerald-700 text-white" : "border-slate-300 bg-white text-slate-700")}>{singleSheet?.tabLabel ?? name}</button>)}
     </div>}
     <section key={tab} id="mh-section-i-panel" role={showTabs ? "tabpanel" : undefined} aria-labelledby={showTabs ? "tab-"+tab : undefined} className="space-y-6 p-4 sm:p-6">
+        {isApiSheet && <div aria-live="polite">
+          {apiError ? <div role="alert" className="text-sm text-red-700">{apiError}
+            <button type="button" className="ml-3 underline" onClick={() => setApiAttempt(value => value + 1)}>Retry</button>
+          </div> : apiValues === null
+            ? <span role="status" className="text-sm text-gray-600">Loading {apiSheet} data from API...</span>
+            : <span role="status" className="text-xs font-medium text-emerald-700">Data loaded from API</span>}
+        </div>}
       <h2 className="text-base font-bold">{singleSheet?.tabLabel ?? tab} {title}</h2>
       {blocks.map(block => <section key={block.start} className={block.rows.length ? "overflow-hidden rounded-xl border border-gray-200" : ""}>
         {block.title && <h3 className={"text-sm font-semibold "+(block.rows.length ? "border-b px-4 py-4" : "")}>{block.title}{block.unit && <span className="ml-2 text-xs font-normal text-gray-500">{block.unit}</span>}</h3>}
@@ -454,8 +534,15 @@ export default function MaharashtraSectionI({ section = "I" }) {
             const cell = row.c[col];
             const key = tab+"!"+col+row.r;
             const editable = block.header?.[col]?.[1] !== "Trajectory" && cell && (cell[0]==="percent" || cell[0]==="number");
-            return <td key={col} className="whitespace-nowrap px-3 py-2">{editable ?
-              <NumericInput definition={{key,label:key,unit:cell[0]==="percent" ? "%" : ""}} value={String(draft[key] ?? cell[1])}
+            const apiValue = apiValues?.[`${col}${row.r}`];
+            const numericApiValue = Number(apiValue);
+            const normalizedApiValue = cell?.[0] === "percent" && apiValue !== undefined && apiValue !== ""
+              && apiValue !== "-" && Number.isFinite(numericApiValue)
+              ? String(Number((numericApiValue * 100).toPrecision(15))) : apiValue ?? "";
+            return <td key={col} className="whitespace-nowrap px-3 py-2">{editable && isApiSheet && apiValues === null ? "-" : editable ?
+              <NumericInput definition={{key,label:key,unit:cell[0]==="percent" ? "%" : ""}}
+                value={String(draft[key] ?? (isApiSheet ? normalizedApiValue : cell[1]))}
+                placeholder={isApiSheet ? "-" : undefined}
                 inputPrefix="mh-i" onBlur={() => {}} onChange={change}/> : cell?.[1]}</td>;
           })}</tr>)}</tbody></table></div>}
       </section>)}

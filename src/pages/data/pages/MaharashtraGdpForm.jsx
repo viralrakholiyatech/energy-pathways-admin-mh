@@ -1,5 +1,6 @@
-import { memo, useState } from "react";
-import { FiSave, FiRotateCcw, FiChevronUp, FiChevronDown } from "react-icons/fi";
+import { fetchMaharashtraGdpInputs } from "../api/gdpApi";
+import { memo, useEffect, useState } from "react";
+import { FiChevronUp, FiChevronDown } from "react-icons/fi";
 import WorkbookInputTable, { NumericInput } from "../components/WorkbookInputTable";
 import sheetRows from "../schemas/mhGdp.json";
 
@@ -8,7 +9,6 @@ const rows = sheetRows.filter(({ cells }) =>
   !/^(?:choose|chosen)(?: scenario)?$/i.test(String(cells.C?.[1] ?? "").trim())
 );
 
-const draftKey = "mh-admin:gdp:workbook-draft:v1";
 const initial = {};
 const blocks = [];
 const scenarioProjectionTables = new Set([22, 30]);
@@ -76,7 +76,7 @@ const transportColumns = Array.from("CDEFGHIJKLMNOPQRST");
 const yearHeaders = rows.find(row => row.row === 23).cells;
 
 
-const SheetRow = memo(function SheetRow({ row, columns, first, draft, change }) {
+const SheetRow = memo(function SheetRow({ row, columns, first, draft }) {
   return <tr className={first ? "bg-gray-50 text-xs font-medium text-gray-500" : "border-t border-gray-100 text-gray-800"}>
     {columns.map(col => {
       const ref = col + row.row;
@@ -84,7 +84,7 @@ const SheetRow = memo(function SheetRow({ row, columns, first, draft, change }) 
       let content = value;
       if (kind === "number" || kind === "percent") {
         content = <NumericInput definition={{ key:ref, label:"GDP " + ref, unit:kind === "percent" ? "%" : "" }}
-          value={draft[ref] ?? value} inputPrefix="mh-gdp" onChange={change} onBlur={() => {}} />;
+          value={draft[ref] ?? ""} placeholder="-" inputPrefix="mh-gdp" readOnly />;
       } else if (kind === "formula") {
         content = <span className="block text-right text-gray-400">-</span>;
       } else if (kind === "label" && /^-?\d+\.\d{10,}$/.test(value)) {
@@ -95,19 +95,19 @@ const SheetRow = memo(function SheetRow({ row, columns, first, draft, change }) 
   </tr>;
 });
 
-function DataTable({ title, columns, headers, data, draft, change }) {
+function DataTable({ title, columns, headers, data, draft }) {
   return <section className="overflow-hidden rounded-xl border border-gray-200 bg-white">
     <h4 className="border-b px-4 py-4 text-sm font-semibold text-gray-900">{title}</h4>
     <div className="overflow-x-auto"><table className="w-full border-collapse text-left text-sm">
       <caption className="sr-only">{title}</caption>
       <thead className="bg-gray-50 text-xs text-gray-500"><tr>{columns.map((col,i) =>
         <th key={col} scope="col" className="whitespace-nowrap px-3 py-3 font-medium">{headers[i]}</th>)}</tr></thead>
-      <tbody>{data.map(row => <SheetRow key={row.row} row={row} columns={columns} draft={draft} change={change}/>)}</tbody>
+      <tbody>{data.map(row => <SheetRow key={row.row} row={row} columns={columns} draft={draft}/>)}</tbody>
     </table></div>
   </section>;
 }
 
-function ResidentialTables({ penetration, draft, change }) {
+function ResidentialTables({ penetration, draft }) {
   const areas = penetration ? [["Urban",197],["Rural",264]] : [["Urban",332],["Rural",424]];
   const count = penetration ? 11 : 16;
   const columns = Array.from(penetration ? "DGHIJKLMNOPQRST" : "DHIJKLMNOPQRST");
@@ -122,40 +122,49 @@ function ResidentialTables({ penetration, draft, change }) {
         return {...row, cells:{...row.cells,D:original.cells.D}};
       });
       return <DataTable key={start} title={"Trajectory " + (index + 1)} columns={columns} headers={headers}
-        data={data} draft={draft} change={change}/>;
+        data={data} draft={draft}/>;
     })}
   </section>);
 }
 
+const apiFields = new Map(rows.flatMap(row => Object.entries(row.cells)
+  .filter(([col]) => Object.hasOwn(initial, col + row.row))
+  .map(([col, [kind]]) => [col + row.row, kind])));
+
 export default function MaharashtraGdpForm() {
-  const [draft, setDraft] = useState(() => {
-    try { return JSON.parse(sessionStorage.getItem(draftKey)) || {}; } catch { return {}; }
-  });
+  const [serverValues, setServerValues] = useState({});
+  const [loadStatus, setLoadStatus] = useState("loading");
+  const [loadError, setLoadError] = useState("");
+  const [attempt, setAttempt] = useState(0);
+  useEffect(() => {
+    const controller = new AbortController();
+    fetchMaharashtraGdpInputs(apiFields, controller.signal).then(values => {
+      if (controller.signal.aborted) return;
+      setServerValues(values);
+      setLoadStatus("loaded");
+    }).catch(error => {
+      if (controller.signal.aborted) return;
+      setLoadError(error.message);
+      setLoadStatus("error");
+    });
+    return () => controller.abort();
+  }, [attempt]);
+
   const [closed, setClosed] = useState({});
-  const [notice,setNotice] = useState("");
-  function change(ref,value) {
-    setDraft(previous => ({ ...previous, [ref]: value }));
-    setNotice("");
-  }
-  function save(event) {
-    event.preventDefault();
-    const invalid = Object.keys(draft).find(ref => ref in initial && (String(draft[ref]).trim() === "" || !Number.isFinite(Number(draft[ref]))));
-    if (invalid) {
-      setNotice("Enter a number for GDP " + invalid + ".");
-      event.currentTarget.elements.namedItem(invalid)?.focus();
-      return;
-    }
-    try {
-      sessionStorage.setItem(draftKey, JSON.stringify(draft));
-      setNotice("GDP draft saved in this tab.");
-    } catch { setNotice("Could not save the draft in this tab."); }
-  }
-  return <form className="space-y-5 pb-3" onSubmit={save}>
+  return <div className="space-y-5 pb-3">
+    <div aria-live="polite">
+      {loadStatus === "loaded" && <span className="inline-block rounded-full border border-emerald-100 bg-emerald-50 px-3 py-1.5 text-xs font-medium text-emerald-700">Data loaded from API</span>}
+      {loadStatus === "loading" && <span className="text-sm text-gray-600">Loading GDP data from API...</span>}
+      {loadStatus === "error" && <div role="alert" className="rounded-xl border border-red-200 bg-white p-4 text-sm text-red-700">
+        {loadError} Workbook defaults are not shown.
+        <button type="button" className="ml-3 underline" onClick={() => { setLoadStatus("loading"); setAttempt(value => value + 1); }}>Retry loading GDP</button>
+      </div>}
+    </div>
     <WorkbookInputTable title={growthTitle} firstColumn={header.C[1]} showUnit={false}
       metadataColumns={[{ key: "description", label: header.D[1] }, { key: "assumption", label: "" }]}
       columns={periods.map(col => header[col][1])} rows={scenarios}
-      form={{ values: { ...initial, ...draft }, errors: {}, inputPrefix: "mh-gdp", emptyLabel: "-",
-        isErrorVisible: () => false, onBlur: () => {}, onChange: change }} />
+      form={{ readOnly: true, values: serverValues, errors: {}, inputPrefix: "mh-gdp", inputPlaceholder: "-", emptyLabel: "-",
+        isErrorVisible: () => false }} />
     {blocks.filter(block => block.start >= 22 && block.start < 55).map(block => {
       const [heading, ...body] = block.rows;
       const title = heading.cells.C[1].trim();
@@ -166,9 +175,9 @@ export default function MaharashtraGdpForm() {
         <div className="overflow-x-auto"><table className="w-full border-collapse text-left text-sm">
           <caption className="sr-only">{title}</caption>
           <tbody className="divide-y divide-gray-100">
-            {!scenarioProjectionTables.has(block.start) && <SheetRow row={headingData} columns={block.columns} first draft={draft} change={change}/>}
+            {!scenarioProjectionTables.has(block.start) && <SheetRow row={headingData} columns={block.columns} first draft={serverValues}/>}
             {body.map(row => <SheetRow key={row.row} row={row} columns={block.columns}
-              first={row.cells.C?.[1] === "Trajectory"} draft={draft} change={change}/>)}
+              first={row.cells.C?.[1] === "Trajectory"} draft={serverValues}/>)}
           </tbody>
         </table></div>
       </section>;
@@ -189,14 +198,14 @@ export default function MaharashtraGdpForm() {
               <DataTable key={row.row} title={row.cells.C[1].trim()} columns={Array.from("DHIJKLMNOPQRST")}
                 headers={["Crop", ...Array.from("HIJKLMNOPQRST", col => yearHeaders[col][1])]}
                 data={rows.filter(item => item.row > row.row && item.row <= row.row + 9)}
-                draft={draft} change={change}/>) :
+                draft={serverValues}/>) :
             start === 519 ? <DataTable title={name} columns={Array.from("CHIJKLMNOPQRST")}
             headers={["", ...Array.from("HIJKLMNOPQRST", col => yearHeaders[col][1])]}
-            data={rows.filter(row => row.row >= start && row.row <= end)} draft={draft} change={change}/> :
+            data={rows.filter(row => row.row >= start && row.row <= end)} draft={serverValues}/> :
             start === 177 || start === 189 ? <DataTable title={name} columns={Object.keys(rows.find(r => r.row === start).cells)}
             headers={Object.values(rows.find(r => r.row === start).cells).map(cell => cell[1])}
-            data={rows.filter(r => r.row > start && r.row <= end)} draft={draft} change={change}/> :
-            title === "Residential buildings" ? <ResidentialTables penetration={start === 195} draft={draft} change={change}/> :
+            data={rows.filter(r => r.row > start && r.row <= end)} draft={serverValues}/> :
+            title === "Residential buildings" ? <ResidentialTables penetration={start === 195} draft={serverValues}/> :
             blocks.filter(b => b.start >= start && b.start <= end).map(block => {
             const tableRows = block.rows.filter(r => r.row >= start && r.row <= end && !(start === 528 && r.row === 528));
             if (title === "Industry") {
@@ -205,7 +214,7 @@ export default function MaharashtraGdpForm() {
                 <table className="w-full border-collapse text-left text-sm"><caption className="sr-only">{name}</caption>
                   <thead className="bg-gray-50 text-xs text-gray-500"><tr>{block.columns.map(col =>
                     <th key={col} scope="col" className="whitespace-nowrap px-3 py-3 font-medium">{headerRow.cells[col]?.[1]}</th>)}</tr></thead>
-                  <tbody>{industryRows.map(row => <SheetRow key={row.row} row={row} columns={block.columns} draft={draft} change={change}/>)}</tbody>
+                  <tbody>{industryRows.map(row => <SheetRow key={row.row} row={row} columns={block.columns} draft={serverValues}/>)}</tbody>
                 </table>
               </div>;
             }
@@ -228,7 +237,7 @@ export default function MaharashtraGdpForm() {
                       {col >= "H" ? yearHeaders[col][1] : transportHeader[col][1].trim()}
                     </th>)}</tr></thead>
                   <tbody className="divide-y divide-gray-100">{transportRows.map(row =>
-                    <SheetRow key={row.row} row={row} columns={transportColumns} draft={draft} change={change}/>)}</tbody>
+                    <SheetRow key={row.row} row={row} columns={transportColumns} draft={serverValues}/>)}</tbody>
                 </table></div>
               </section>;
             }
@@ -236,19 +245,11 @@ export default function MaharashtraGdpForm() {
             return <section key={block.start} className="min-w-0 overflow-hidden rounded-xl border border-gray-200 bg-white">
               <div className="border-b border-gray-100 px-4 py-4 sm:px-5"><h3 className="text-sm font-semibold text-gray-900">{caption}</h3></div>
               <div className="overflow-x-auto"><table className="w-full border-collapse text-left text-sm"><caption className="sr-only">{caption}</caption>
-                <tbody className="divide-y divide-gray-100">{tableRows.map((row,k) => <SheetRow key={row.row} row={row} columns={block.columns} first={k === 0} draft={draft} change={change}/>)}</tbody>
+                <tbody className="divide-y divide-gray-100">{tableRows.map((row,k) => <SheetRow key={row.row} row={row} columns={block.columns} first={k === 0} draft={serverValues}/>)}</tbody>
               </table></div>
             </section>;
           })}
         </section>)}</div>}
     </section>)}
-    <div className="sticky bottom-3 z-20 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-gray-200 bg-white p-4 shadow-lg">
-      <div><p className="text-sm font-semibold text-gray-800">GDP inputs</p><p role="status" className="mt-1 text-xs text-gray-500">{notice || "Drafts stay in this browser tab."}</p></div>
-      <div className="flex items-center gap-2">
-        <button type="button" className="inline-flex items-center gap-2 rounded-lg border border-gray-200 px-3 py-2.5 text-xs font-medium text-gray-600 hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-50" onClick={() => {if(window.confirm("Restore GDP workbook values?")) {setDraft({});setNotice("Defaults restored. Save to keep them.");}}}><FiRotateCcw/>Restore defaults</button>
-        <button type="button" className="rounded-lg px-3 py-2.5 text-xs font-medium text-red-600 hover:bg-red-50 disabled:cursor-not-allowed disabled:opacity-50" onClick={() => {if(window.confirm("Clear all GDP inputs?")) {setDraft(Object.fromEntries(Object.keys(initial).map(k => [k,""])));setNotice("GDP fields cleared.");}}}>Clear fields</button>
-        <button className="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-50"><FiSave/>Save GDP draft</button>
-      </div>
-    </div>
-  </form>;
+  </div>;
 }

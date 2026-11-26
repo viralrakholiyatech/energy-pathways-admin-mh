@@ -2,12 +2,27 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { startPreviewSession } from "../../utils/auth";
+import Swal from "sweetalert2";
+import { loginRequest } from "../../utils/api";
+import { saveSession } from "../../utils/auth";
 import Logo from "../../components/Logo";
+
+const toast = (icon, title, text, timer) =>
+  Swal.fire({
+    toast: true,
+    position: "top-end",
+    icon,
+    title,
+    text,
+    showConfirmButton: false,
+    timer,
+    timerProgressBar: true
+  });
 
 const Login = () => {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
+  const [loading, setLoading] = useState(false);
   const {
     register,
     handleSubmit,
@@ -19,9 +34,23 @@ const Login = () => {
     }
   });
 
-  const onSubmit = () => {
-    startPreviewSession();
-    navigate("/admin/data-upload", { replace: true });
+  const onSubmit = async (data) => {
+    setLoading(true);
+    try {
+      const result = await loginRequest(data.username, data.password);
+      saveSession(result.token, result.expiresIn);
+      setLoading(false);
+      toast("success", result.message || "Login successful", "", 1500);
+      setTimeout(() => navigate("/admin/data-upload"), 1500);
+    } catch (error) {
+      setLoading(false);
+      toast(
+        "error",
+        "Login failed",
+        error.message || "Something went wrong. Please try again.",
+        2500
+      );
+    }
   };
 
 
@@ -49,7 +78,7 @@ const Login = () => {
             </label>
             <input
               type="text"
-              className="text-sm text-gray-900 w-full py-2.5 px-3.5 rounded-lg bg-gray-50 border border-gray-200 placeholder:text-gray-400 focus:outline-none focus:bg-white focus:border-blue-500 focus:ring-2 focus:ring-blue-100 transition"
+              className="text-sm text-gray-900  w-full py-2.5 px-3.5 rounded-lg bg-gray-50 border border-gray-200 placeholder:text-gray-400 focus:outline-none focus:bg-white focus:border-blue-500 focus:ring-2 focus:ring-blue-100 transition"
               placeholder="Enter your username"
               {...register("username", { required: "Username is required" })}
             />
@@ -84,13 +113,24 @@ const Login = () => {
                 {errors.password.message}
               </p>
             )}
-          </div> 
+          </div>
+
           <button
             type="submit"
+            disabled={loading}
             className="w-full py-2.5 px-4 bg-[#2563eb] hover:bg-blue-700 active:bg-blue-800 text-white font-semibold rounded-lg shadow-sm hover:shadow transition duration-150 disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center gap-2 mt-2"
           >
-            Sign In
+            {loading ? (
+              <>
+                <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                <span>Signing in...</span>
+              </>
+            ) : (
+              "Sign In"
+            )}
           </button>
+
+
         </form>
       </div>
     </div>

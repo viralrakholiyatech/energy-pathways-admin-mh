@@ -6,14 +6,11 @@ export const saveSession = (token, expiresIn) => {
   else localStorage.removeItem(EXPIRY_KEY);
 };
 export const getToken = () => localStorage.getItem(TOKEN_KEY);
-export const startPreviewSession = () => { clearSession(); sessionStorage.setItem("mhAdminPreview", "1"); };
 export const clearSession = () => {
-  sessionStorage.removeItem("mhAdminPreview");
   localStorage.removeItem(TOKEN_KEY);
   localStorage.removeItem(EXPIRY_KEY);
 };
 export const isLoggedIn = () => {
-  if (sessionStorage.getItem("mhAdminPreview") === "1") return true;
   const token = getToken();
   if (!token) return false;
   const expiry = Number(localStorage.getItem(EXPIRY_KEY));
